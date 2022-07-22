@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="ml-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="ml-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ml-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="ml-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E2233A"/>
+      <stop offset="100%" stop-color="#CC162C"/>
+    </linearGradient>
+    <linearGradient id="ml-h" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ECB4D"/>
+      <stop offset="100%" stop-color="#24B441"/>
+    </linearGradient>
+    <rect id="ml-g" width="7" height="15" x="0" y="0"/>
+    <filter id="ml-f" width="121.4%" height="110%" x="-10.7%" y="-5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ml-k" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD749"/>
+      <stop offset="100%" stop-color="#FCD036"/>
+    </linearGradient>
+    <rect id="ml-j" width="7" height="15" x="7" y="0"/>
+    <filter id="ml-i" width="121.4%" height="110%" x="-10.7%" y="-5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="ml-m" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ml-l" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="ml-e" fill="#fff">
+      <use xlink:href="#ml-a"/>
+    </mask>
+    <use fill="#000" filter="url(#ml-b)" xlink:href="#ml-a"/>
+    <use fill="url(#ml-c)" xlink:href="#ml-a"/>
+    <rect width="11" height="15" x="10" fill="url(#ml-d)" mask="url(#ml-e)"/>
+    <g mask="url(#ml-e)">
+      <use fill="#000" filter="url(#ml-f)" xlink:href="#ml-g"/>
+      <use fill="url(#ml-h)" xlink:href="#ml-g"/>
+    </g>
+    <g mask="url(#ml-e)">
+      <use fill="#000" filter="url(#ml-i)" xlink:href="#ml-j"/>
+      <use fill="url(#ml-k)" xlink:href="#ml-j"/>
+    </g>
+    <g fill="#000" mask="url(#ml-e)">
+      <use filter="url(#ml-l)" xlink:href="#ml-m"/>
+    </g>
+  </g>
+</svg>

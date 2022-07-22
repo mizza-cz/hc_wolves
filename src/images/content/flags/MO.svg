@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="mo-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="mo-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="mo-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="mo-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#079D7B"/>
+      <stop offset="100%" stop-color="#01795E"/>
+    </linearGradient>
+    <rect id="mo-f" width="21" height="15" x="0" y="0"/>
+    <filter id="mo-e" width="107.1%" height="110%" x="-3.6%" y="-5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="mo-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="mo-i" d="M7.16607559,9 C6.43763664,9.62539994 5.51005005,10 4.5,10 C3.48994995,10 2.56236336,9.62539994 1.83392441,9 L7.16607559,9 Z M4.5,7 C5.33418009,7 6.07293597,6.91828808 6.52708169,6.9029671 C6.3779024,6.94200959 6.23108027,6.97439612 6.08751729,7.00096859 L8.5,7 C8.38139497,7.35602901 8.22175988,7.69149418 8.02712264,8 L8.02712264,8 L0.972877361,8 C0.778240116,7.69149418 0.618605029,7.35602901 0.5,7 L0.5,7 L2.88230134,7.00145308 C2.736775,6.9731028 2.58811346,6.93883127 2.43762742,6.89850866 L2.45326364,6.90234058 C2.90557259,6.91589141 3.65367476,7 4.5,7 Z M4.5,2 C5.2808092,2 5.91378011,3.11928813 5.91378011,4.5 C5.91378011,4.71929802 5.89781224,4.93200114 5.86782031,5.13467208 L5.91423201,5.11952062 L5.91423201,5.11952062 L6.10221442,5.06621516 C7.43587968,4.70886063 8.6262456,4.82676952 8.76097113,5.32957203 C8.88279316,5.78421804 8.09978848,6.3978852 6.96268967,6.77546062 C6.76392955,6.1796411 5.73685834,6 4.5,6 C3.2624365,6 2.2348994,6.17984599 2.03513755,6.77603861 C0.914411633,6.39872749 0.145990475,5.79175589 0.266754997,5.34105657 C0.401480524,4.83825405 1.59184645,4.72034517 2.92551171,5.0776997 C2.99599846,5.09658657 3.06547478,5.116423 3.13383069,5.1371301 C3.10234573,4.93410002 3.08621989,4.72038008 3.08621989,4.5 C3.08621989,3.11928813 3.7191908,2 4.5,2 Z"/>
+    <filter id="mo-h" width="105.9%" height="112.5%" x="-2.9%" y="-3.1%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <path id="mo-l" d="M0.5,2.5 C0.776142375,2.5 1,2.72385763 1,3 C1,3.27614237 0.776142375,3.5 0.5,3.5 C0.223857625,3.5 0,3.27614237 0,3 C0,2.72385763 0.223857625,2.5 0.5,2.5 Z M8.5,2.5 C8.77614237,2.5 9,2.72385763 9,3 C9,3.27614237 8.77614237,3.5 8.5,3.5 C8.22385763,3.5 8,3.27614237 8,3 C8,2.72385763 8.22385763,2.5 8.5,2.5 Z M7,1 C7.27614237,1 7.5,1.22385763 7.5,1.5 C7.5,1.77614237 7.27614237,2 7,2 C6.72385763,2 6.5,1.77614237 6.5,1.5 C6.5,1.22385763 6.72385763,1 7,1 Z M2,1 C2.27614237,1 2.5,1.22385763 2.5,1.5 C2.5,1.77614237 2.27614237,2 2,2 C1.72385763,2 1.5,1.77614237 1.5,1.5 C1.5,1.22385763 1.72385763,1 2,1 Z M4.5,0 C4.77614237,0 5,0.223857625 5,0.5 C5,0.776142375 4.77614237,1 4.5,1 C4.22385763,1 4,0.776142375 4,0.5 C4,0.223857625 4.22385763,0 4.5,0 Z"/>
+    <filter id="mo-k" width="105.6%" height="128.6%" x="-2.8%" y="-7.1%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="mo-n" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="mo-m" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="mo-d" fill="#fff">
+      <use xlink:href="#mo-a"/>
+    </mask>
+    <use fill="#000" filter="url(#mo-b)" xlink:href="#mo-a"/>
+    <use fill="url(#mo-c)" xlink:href="#mo-a"/>
+    <g mask="url(#mo-d)">
+      <use fill="#000" filter="url(#mo-e)" xlink:href="#mo-f"/>
+      <use fill="url(#mo-g)" xlink:href="#mo-f"/>
+    </g>
+    <g mask="url(#mo-d)">
+      <g transform="translate(6 2)">
+        <use fill="#000" filter="url(#mo-h)" xlink:href="#mo-i"/>
+        <use fill="url(#mo-j)" xlink:href="#mo-i"/>
+        <use fill="#000" filter="url(#mo-k)" xlink:href="#mo-l"/>
+        <use fill="#FCD117" xlink:href="#mo-l"/>
+      </g>
+    </g>
+    <use fill="#000" filter="url(#mo-m)" xlink:href="#mo-n"/>
+  </g>
+</svg>

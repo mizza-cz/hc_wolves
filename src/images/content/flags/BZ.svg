@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="bz-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="bz-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="bz-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="bz-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#094995"/>
+      <stop offset="100%" stop-color="#074185"/>
+    </linearGradient>
+    <linearGradient id="bz-h" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#D5182F"/>
+      <stop offset="100%" stop-color="#CC162C"/>
+    </linearGradient>
+    <rect id="bz-g" width="21" height="2" x="0" y="0"/>
+    <filter id="bz-f" width="107.1%" height="175%" x="-3.6%" y="-37.5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="bz-j" width="21" height="2" x="0" y="13"/>
+    <filter id="bz-i" width="107.1%" height="175%" x="-3.6%" y="-37.5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="bz-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <circle id="bz-l" cx="10.5" cy="7.5" r="4.5"/>
+    <filter id="bz-k" width="105.6%" height="111.1%" x="-2.8%" y="-2.8%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="bz-o" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="bz-n" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="bz-e" fill="#fff">
+      <use xlink:href="#bz-a"/>
+    </mask>
+    <use fill="#000" filter="url(#bz-b)" xlink:href="#bz-a"/>
+    <use fill="url(#bz-c)" xlink:href="#bz-a"/>
+    <rect width="21" height="11" y="2" fill="url(#bz-d)" mask="url(#bz-e)"/>
+    <g mask="url(#bz-e)">
+      <use fill="#000" filter="url(#bz-f)" xlink:href="#bz-g"/>
+      <use fill="url(#bz-h)" xlink:href="#bz-g"/>
+    </g>
+    <g mask="url(#bz-e)">
+      <use fill="#000" filter="url(#bz-i)" xlink:href="#bz-j"/>
+      <use fill="url(#bz-h)" xlink:href="#bz-j"/>
+    </g>
+    <g mask="url(#bz-e)">
+      <use fill="#000" filter="url(#bz-k)" xlink:href="#bz-l"/>
+      <use fill="url(#bz-m)" xlink:href="#bz-l"/>
+    </g>
+    <path stroke="#118014" stroke-dasharray=".5 1.5" stroke-linecap="round" d="M10.5,10.5 C12.1568542,10.5 13.5,9.15685425 13.5,7.5 C13.5,5.84314575 12.1568542,4.5 10.5,4.5 C8.84314575,4.5 7.5,5.84314575 7.5,7.5 C7.5,9.15685425 8.84314575,10.5 10.5,10.5 Z" mask="url(#bz-e)"/>
+    <g fill="#000" mask="url(#bz-e)">
+      <use filter="url(#bz-n)" xlink:href="#bz-o"/>
+    </g>
+  </g>
+</svg>

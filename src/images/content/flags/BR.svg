@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="br-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="br-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="br-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="br-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#05AB41"/>
+      <stop offset="100%" stop-color="#019C39"/>
+    </linearGradient>
+    <path id="br-g" d="M2.42151632,7.77274586 C2.18871929,7.62211248 2.19350487,7.37479097 2.42151632,7.22725414 L10.0784837,2.27274586 C10.3112807,2.12211248 10.6935049,2.12520903 10.9215163,2.27274586 L18.5784837,7.22725414 C18.8112807,7.37788752 18.8064951,7.62520903 18.5784837,7.77274586 L10.9215163,12.7272541 C10.6887193,12.8778875 10.3064951,12.874791 10.0784837,12.7272541 L2.42151632,7.77274586 Z"/>
+    <filter id="br-f" width="103%" height="109.4%" x="-1.5%" y="-2.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+    <linearGradient id="br-i" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#053087"/>
+      <stop offset="100%" stop-color="#012877"/>
+    </linearGradient>
+    <circle id="br-h" cx="3.5" cy="3.5" r="3.5"/>
+    <rect id="br-l" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="br-k" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="br-e" fill="#fff">
+      <use xlink:href="#br-a"/>
+    </mask>
+    <use fill="#000" filter="url(#br-b)" xlink:href="#br-a"/>
+    <use fill="url(#br-c)" xlink:href="#br-a"/>
+    <rect width="21" height="15" fill="url(#br-d)" mask="url(#br-e)"/>
+    <g mask="url(#br-e)">
+      <use fill="#000" filter="url(#br-f)" xlink:href="#br-g"/>
+      <use fill="#FDD216" xlink:href="#br-g"/>
+    </g>
+    <g mask="url(#br-e)">
+      <g transform="translate(7 4)">
+        <mask id="br-j" fill="#fff">
+          <use xlink:href="#br-h"/>
+        </mask>
+        <use fill="url(#br-i)" xlink:href="#br-h"/>
+        <path stroke="#FFF" stroke-linecap="square" d="M-0.5,3 C-1.11022302e-16,2.50000002 1.80761719,2.73388676 3.5,3.00000001 C5.19238281,3.26611325 7.00609166,4.00609174 7.5,4.5" mask="url(#br-j)" transform="rotate(6 3.5 3.603)"/>
+      </g>
+    </g>
+    <g fill="#000" mask="url(#br-e)">
+      <use filter="url(#br-k)" xlink:href="#br-l"/>
+    </g>
+  </g>
+</svg>

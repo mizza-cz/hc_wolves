@@ -1,0 +1,39 @@
+.bg-page {
+  background-image: url("../images/bg-page.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.bg-gradient-black {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 100%
+  );
+}
+.bg-gray-dark {
+  background-color: #575757 !important;
+}
+.bg-secondary {
+  background-color: var(--color-red) !important;
+}
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+.bg-gray-light {
+  background-color: #edf0f4 !important;
+}
+.stretched-link:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0, 0, 0, 0);
+}
+.bg-white {
+  background-color: #fff !important;
+}

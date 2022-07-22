@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="km-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="km-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="km-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="km-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFCB49"/>
+      <stop offset="100%" stop-color="#FFC638"/>
+    </linearGradient>
+    <rect id="km-f" width="21" height="4" x="0" y="0"/>
+    <filter id="km-e" width="107.1%" height="137.5%" x="-3.6%" y="-18.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="km-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#DC1D34"/>
+      <stop offset="100%" stop-color="#CC162C"/>
+    </linearGradient>
+    <rect id="km-i" width="21" height="4" x="0" y="7"/>
+    <filter id="km-h" width="107.1%" height="137.5%" x="-3.6%" y="-18.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="km-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#4985D4"/>
+      <stop offset="100%" stop-color="#3D77C2"/>
+    </linearGradient>
+    <rect id="km-l" width="21" height="4" x="0" y="11"/>
+    <filter id="km-k" width="107.1%" height="137.5%" x="-3.6%" y="-18.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="km-p" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="km-o" width="21" height="3" x="0" y="4"/>
+    <filter id="km-n" width="107.1%" height="150%" x="-3.6%" y="-25%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="km-q" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#4BA343"/>
+      <stop offset="100%" stop-color="#408D39"/>
+    </linearGradient>
+    <linearGradient id="km-t" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="km-s" d="M4,4.5 C4.2594247,4.5 4.51115844,4.5329289 4.75124955,4.59483501 C3.45595757,4.92769512 2.5,6.10220963 2.5,7.5 C2.5,8.89779037 3.45595757,10.0723049 4.74975229,10.4054231 C4.51115844,10.4670711 4.2594247,10.5 4,10.5 C2.34314575,10.5 1,9.15685425 1,7.5 C1,5.84314575 2.34314575,4.5 4,4.5 Z M5.5,9 C5.77614237,9 6,9.22385763 6,9.5 C6,9.77614237 5.77614237,10 5.5,10 C5.22385763,10 5,9.77614237 5,9.5 C5,9.22385763 5.22385763,9 5.5,9 Z M5.5,7 C5.77614237,7 6,7.22385763 6,7.5 C6,7.77614237 5.77614237,8 5.5,8 C5.22385763,8 5,7.77614237 5,7.5 C5,7.22385763 5.22385763,7 5.5,7 Z M5.5,5 C5.77614237,5 6,5.22385763 6,5.5 C6,5.77614237 5.77614237,6 5.5,6 C5.22385763,6 5,5.77614237 5,5.5 C5,5.22385763 5.22385763,5 5.5,5 Z"/>
+    <filter id="km-r" width="110%" height="116.7%" x="-5%" y="-4.2%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="km-v" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="km-u" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="km-d" fill="#fff">
+      <use xlink:href="#km-a"/>
+    </mask>
+    <use fill="#000" filter="url(#km-b)" xlink:href="#km-a"/>
+    <use fill="url(#km-c)" xlink:href="#km-a"/>
+    <g mask="url(#km-d)">
+      <use fill="#000" filter="url(#km-e)" xlink:href="#km-f"/>
+      <use fill="url(#km-g)" xlink:href="#km-f"/>
+    </g>
+    <g mask="url(#km-d)">
+      <use fill="#000" filter="url(#km-h)" xlink:href="#km-i"/>
+      <use fill="url(#km-j)" xlink:href="#km-i"/>
+    </g>
+    <g mask="url(#km-d)">
+      <use fill="#000" filter="url(#km-k)" xlink:href="#km-l"/>
+      <use fill="url(#km-m)" xlink:href="#km-l"/>
+    </g>
+    <g mask="url(#km-d)">
+      <use fill="#000" filter="url(#km-n)" xlink:href="#km-o"/>
+      <use fill="url(#km-p)" xlink:href="#km-o"/>
+    </g>
+    <polygon fill="url(#km-q)" points="0 15 10 7.5 0 0" mask="url(#km-d)"/>
+    <g mask="url(#km-d)">
+      <use fill="#000" filter="url(#km-r)" xlink:href="#km-s"/>
+      <use fill="url(#km-t)" xlink:href="#km-s"/>
+    </g>
+    <g fill="#000" mask="url(#km-d)">
+      <use filter="url(#km-u)" xlink:href="#km-v"/>
+    </g>
+  </g>
+</svg>

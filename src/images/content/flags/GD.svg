@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="gd-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="gd-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="gd-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="gd-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E42235"/>
+      <stop offset="100%" stop-color="#CE1225"/>
+    </linearGradient>
+    <rect id="gd-f" width="21" height="15" x="0" y="0"/>
+    <filter id="gd-e" width="107.1%" height="110%" x="-3.6%" y="-5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="gd-i" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#079B77"/>
+      <stop offset="100%" stop-color="#007B5D"/>
+    </linearGradient>
+    <rect id="gd-h" width="17" height="11" x="0" y="0"/>
+    <linearGradient id="gd-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD938"/>
+      <stop offset="100%" stop-color="#FDD117"/>
+    </linearGradient>
+    <path id="gd-l" d="M1.2948789,5.59885368 C1.57800611,6.05195195 1.98448743,6.3510373 2.36308877,6.42779338 C2.57152317,6.47005051 2.18990286,5.51415964 2.35620138,5.41024479 C2.49809484,5.32157992 3.18079024,6.11649051 3.24057126,5.95064666 C3.37811632,5.56907067 3.29697727,5.02872102 2.99097509,4.53901516 C2.5519756,3.83646911 2.53483743,4.30016223 1.3480481,3.79686228 C1.47213428,4.51662311 0.855879404,4.89630764 1.2948789,5.59885368 L1.2948789,5.59885368 Z"/>
+    <filter id="gd-k" width="123%" height="138%" x="-11.5%" y="-9.5%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+    <linearGradient id="gd-p" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD93B"/>
+      <stop offset="100%" stop-color="#FDD117"/>
+    </linearGradient>
+    <path id="gd-o" d="M8.5,5.5 L17,11 L0,11 L8.5,5.5 Z M17,0 L8.5,5.5 L0,0 L17,0 Z"/>
+    <filter id="gd-n" width="122.9%" height="113.6%" x="-11.4%" y="-6.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="gd-s" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E21C30"/>
+      <stop offset="100%" stop-color="#CE1225"/>
+    </linearGradient>
+    <circle id="gd-r" cx="8.5" cy="5.5" r="2.5"/>
+    <filter id="gd-q" width="110%" height="120%" x="-5%" y="-5%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+    <linearGradient id="gd-v" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD938"/>
+      <stop offset="100%" stop-color="#FDD117"/>
+    </linearGradient>
+    <polygon id="gd-u" points="8.5 6.271 7.324 7.118 7.766 5.738 6.598 4.882 8.047 4.876 8.5 3.5 8.953 4.876 10.402 4.882 9.234 5.738 9.676 7.118"/>
+    <filter id="gd-t" width="107.6%" height="115.5%" x="-3.8%" y="-6.2%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+    <rect id="gd-x" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="gd-w" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="gd-d" fill="#fff">
+      <use xlink:href="#gd-a"/>
+    </mask>
+    <use fill="#000" filter="url(#gd-b)" xlink:href="#gd-a"/>
+    <use fill="url(#gd-c)" xlink:href="#gd-a"/>
+    <g mask="url(#gd-d)">
+      <use fill="#000" filter="url(#gd-e)" xlink:href="#gd-f"/>
+      <use fill="url(#gd-g)" xlink:href="#gd-f"/>
+    </g>
+    <g mask="url(#gd-d)">
+      <g transform="translate(2 2)">
+        <mask id="gd-j" fill="#fff">
+          <use xlink:href="#gd-h"/>
+        </mask>
+        <use fill="url(#gd-i)" xlink:href="#gd-h"/>
+        <g mask="url(#gd-j)">
+          <use fill="#000" filter="url(#gd-k)" xlink:href="#gd-l"/>
+          <use fill="url(#gd-m)" xlink:href="#gd-l"/>
+        </g>
+        <g mask="url(#gd-j)">
+          <use fill="#000" filter="url(#gd-n)" xlink:href="#gd-o"/>
+          <use fill="url(#gd-p)" xlink:href="#gd-o"/>
+        </g>
+        <g mask="url(#gd-j)">
+          <use fill="#000" filter="url(#gd-q)" xlink:href="#gd-r"/>
+          <use fill="url(#gd-s)" xlink:href="#gd-r"/>
+        </g>
+        <g mask="url(#gd-j)">
+          <use fill="#000" filter="url(#gd-t)" xlink:href="#gd-u"/>
+          <use fill="url(#gd-v)" xlink:href="#gd-u"/>
+        </g>
+      </g>
+    </g>
+    <g fill="#000" mask="url(#gd-d)">
+      <use filter="url(#gd-w)" xlink:href="#gd-x"/>
+    </g>
+  </g>
+</svg>

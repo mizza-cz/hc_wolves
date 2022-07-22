@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="er-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="er-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="er-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="er-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#29C53F"/>
+      <stop offset="100%" stop-color="#21AC35"/>
+    </linearGradient>
+    <linearGradient id="er-f" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#579DED"/>
+      <stop offset="100%" stop-color="#458BDB"/>
+    </linearGradient>
+    <linearGradient id="er-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F42D56"/>
+      <stop offset="100%" stop-color="#E9103D"/>
+    </linearGradient>
+    <rect id="er-i" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="er-h" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="er-e" fill="#fff">
+      <use xlink:href="#er-a"/>
+    </mask>
+    <use fill="#000" filter="url(#er-b)" xlink:href="#er-a"/>
+    <use fill="url(#er-c)" xlink:href="#er-a"/>
+    <rect width="21" height="7.5" fill="url(#er-d)" mask="url(#er-e)"/>
+    <rect width="21" height="8" y="7.5" fill="url(#er-f)" mask="url(#er-e)"/>
+    <polygon fill="url(#er-g)" points="0 15 21 7.5 0 0" mask="url(#er-e)"/>
+    <circle cx="6.5" cy="7.5" r="3" stroke="#FFC63C" mask="url(#er-e)"/>
+    <circle cx="6" cy="6.5" r="1" fill="#FFC63C" mask="url(#er-e)"/>
+    <circle cx="7" cy="7" r="1" fill="#FFC63C" mask="url(#er-e)"/>
+    <circle cx="6.5" cy="6" r="1" fill="#FFC63C" mask="url(#er-e)"/>
+    <circle cx="6" cy="7.5" r="1" fill="#FFC63C" mask="url(#er-e)"/>
+    <circle cx="7" cy="8" r="1" fill="#FFC63C" mask="url(#er-e)"/>
+    <circle cx="6" cy="8.5" r="1" fill="#FFC63C" mask="url(#er-e)"/>
+    <circle cx="7" cy="9" r="1" fill="#FFC63C" mask="url(#er-e)"/>
+    <g fill="#000" mask="url(#er-e)">
+      <use filter="url(#er-h)" xlink:href="#er-i"/>
+    </g>
+  </g>
+</svg>

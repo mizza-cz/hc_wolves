@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <filter id="to-a" width="111.9%" height="123.3%" x="-6%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="to-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="to-b" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="to-c" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="to-e" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E20F1B"/>
+      <stop offset="100%" stop-color="#C00711"/>
+    </linearGradient>
+    <linearGradient id="to-i" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="to-h" width="12" height="8" x="0" y="0"/>
+    <filter id="to-g" width="112.5%" height="118.8%" x="-6.2%" y="-9.4%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="to-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#DF101B"/>
+      <stop offset="100%" stop-color="#C00711"/>
+    </linearGradient>
+    <rect id="to-l" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="to-k" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#to-a)" transform="translate(1 1)">
+    <mask id="to-f" fill="#fff">
+      <use xlink:href="#to-b"/>
+    </mask>
+    <use fill="#000" filter="url(#to-c)" xlink:href="#to-b"/>
+    <use fill="url(#to-d)" xlink:href="#to-b"/>
+    <rect width="21" height="15" fill="url(#to-e)" mask="url(#to-f)"/>
+    <g mask="url(#to-f)">
+      <use fill="#000" filter="url(#to-g)" xlink:href="#to-h"/>
+      <use fill="url(#to-i)" xlink:href="#to-h"/>
+    </g>
+    <path fill="url(#to-j)" d="M6.75476074,1 C6.89020264,1 7,1.10414124 7,1.2578125 L7,3 L8.7421875,3 C8.88457341,3 9,3.10752869 9,3.24523926 L9,4.75476074 C9,4.89020264 8.89585876,5 8.7421875,5 L7,5 L7,6.7421875 C7,6.88457341 6.89247131,7 6.75476074,7 L5.24523926,7 C5.10979736,7 5,6.89585876 5,6.7421875 L5,5 L3.2578125,5 C3.11542659,5 3,4.89247131 3,4.75476074 L3,3.24523926 C3,3.10979736 3.10414124,3 3.2578125,3 L5,3 L5,1.2578125 C5,1.11542659 5.10752869,1 5.24523926,1 L6.75476074,1 Z" mask="url(#to-f)"/>
+    <g fill="#000" mask="url(#to-f)">
+      <use filter="url(#to-k)" xlink:href="#to-l"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="cr-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="cr-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="cr-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="cr-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#06358F"/>
+      <stop offset="100%" stop-color="#042E7D"/>
+    </linearGradient>
+    <rect id="cr-f" width="21" height="3" x="0" y="0"/>
+    <filter id="cr-e" width="107.1%" height="150%" x="-3.6%" y="-25%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="cr-i" width="21" height="3" x="0" y="12"/>
+    <filter id="cr-h" width="107.1%" height="150%" x="-3.6%" y="-25%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="cr-l" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="cr-k" width="21" height="9" x="0" y="3"/>
+    <filter id="cr-j" width="107.1%" height="116.7%" x="-3.6%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="cr-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E61F37"/>
+      <stop offset="100%" stop-color="#CC162C"/>
+    </linearGradient>
+    <rect id="cr-o" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="cr-n" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="cr-d" fill="#fff">
+      <use xlink:href="#cr-a"/>
+    </mask>
+    <use fill="#000" filter="url(#cr-b)" xlink:href="#cr-a"/>
+    <use fill="url(#cr-c)" xlink:href="#cr-a"/>
+    <g mask="url(#cr-d)">
+      <use fill="#000" filter="url(#cr-e)" xlink:href="#cr-f"/>
+      <use fill="url(#cr-g)" xlink:href="#cr-f"/>
+    </g>
+    <g mask="url(#cr-d)">
+      <use fill="#000" filter="url(#cr-h)" xlink:href="#cr-i"/>
+      <use fill="url(#cr-g)" xlink:href="#cr-i"/>
+    </g>
+    <g mask="url(#cr-d)">
+      <use fill="#000" filter="url(#cr-j)" xlink:href="#cr-k"/>
+      <use fill="url(#cr-l)" xlink:href="#cr-k"/>
+    </g>
+    <rect width="21" height="5" y="5" fill="url(#cr-m)" mask="url(#cr-d)"/>
+    <g fill="#000" mask="url(#cr-d)">
+      <use filter="url(#cr-n)" xlink:href="#cr-o"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="il-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="il-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="il-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="il-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E46D4"/>
+      <stop offset="100%" stop-color="#0538B9"/>
+    </linearGradient>
+    <rect id="il-f" width="21" height="3" x="0" y="0"/>
+    <filter id="il-e" width="107.1%" height="150%" x="-3.6%" y="-25%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="il-i" width="21" height="3" x="0" y="12"/>
+    <filter id="il-h" width="107.1%" height="150%" x="-3.6%" y="-25%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="il-l" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="il-k" width="21" height="9" x="0" y="3"/>
+    <filter id="il-j" width="107.1%" height="116.7%" x="-3.6%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="il-n" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="il-m" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="il-d" fill="#fff">
+      <use xlink:href="#il-a"/>
+    </mask>
+    <use fill="#000" filter="url(#il-b)" xlink:href="#il-a"/>
+    <use fill="url(#il-c)" xlink:href="#il-a"/>
+    <g mask="url(#il-d)">
+      <use fill="#000" filter="url(#il-e)" xlink:href="#il-f"/>
+      <use fill="url(#il-g)" xlink:href="#il-f"/>
+    </g>
+    <g mask="url(#il-d)">
+      <use fill="#000" filter="url(#il-h)" xlink:href="#il-i"/>
+      <use fill="url(#il-g)" xlink:href="#il-i"/>
+    </g>
+    <g mask="url(#il-d)">
+      <use fill="#000" filter="url(#il-j)" xlink:href="#il-k"/>
+      <use fill="url(#il-l)" xlink:href="#il-k"/>
+    </g>
+    <path stroke="#093EC5" stroke-width=".5" d="M12.3399226,4.81316074 L7.17451256,7.91015593 L12.240551,10.8350345 L12.3399226,4.81316074 Z" mask="url(#il-d)" transform="rotate(-30 9.875 7.833)"/>
+    <path stroke="#093EC5" stroke-width=".5" d="M12.3399224,4.14809702 L7.17451263,7.24509219 L12.240551,10.1699711 L12.3399224,4.14809702 Z" mask="url(#il-d)" transform="scale(1 -1) rotate(-30 -16.874 0)"/>
+    <g fill="#000" mask="url(#il-d)">
+      <use filter="url(#il-m)" xlink:href="#il-n"/>
+    </g>
+  </g>
+</svg>

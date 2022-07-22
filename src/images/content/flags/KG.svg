@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="kg-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="kg-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="kg-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="kg-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F22A46"/>
+      <stop offset="100%" stop-color="#E71834"/>
+    </linearGradient>
+    <linearGradient id="kg-h" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF04D"/>
+      <stop offset="100%" stop-color="#FFEE35"/>
+    </linearGradient>
+    <circle id="kg-g" cx="10.5" cy="7.5" r="2.5"/>
+    <filter id="kg-f" width="110%" height="120%" x="-5%" y="-5%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+    <linearGradient id="kg-k" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF04D"/>
+      <stop offset="100%" stop-color="#FFEE35"/>
+    </linearGradient>
+    <path id="kg-j" d="M11.7238651,2.13789648 L12.03387,4.31488606 L13.9291939,3.19992685 L13.2639383,5.29583277 L15.4553288,5.11363943 L13.9465747,6.71334182 L16,7.5 L13.9465747,8.28665818 L15.4553288,9.88636057 L13.2639383,9.70416723 L13.9291939,11.8000732 L12.03387,10.6851139 L11.7238651,12.8621035 L10.5,11.0352098 L9.27613486,12.8621035 L8.96612997,10.6851139 L7.07080609,11.8000732 L7.73606171,9.70416723 L5.54467123,9.88636057 L7.05342533,8.28665818 L5,7.5 L7.05342533,6.71334182 L5.54467123,5.11363943 L7.73606171,5.29583277 L7.07080609,3.19992685 L8.96612997,4.31488606 L9.27613486,2.13789648 L10.5,3.96479024 L11.7238651,2.13789648 Z M10.5,4 C8.56700338,4 7,5.56700338 7,7.5 C7,9.43299662 8.56700338,11 10.5,11 C12.4329966,11 14,9.43299662 14,7.5 C14,5.56700338 12.4329966,4 10.5,4 Z"/>
+    <filter id="kg-i" width="104.5%" height="109.3%" x="-2.3%" y="-2.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+    <rect id="kg-m" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="kg-l" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="kg-e" fill="#fff">
+      <use xlink:href="#kg-a"/>
+    </mask>
+    <use fill="#000" filter="url(#kg-b)" xlink:href="#kg-a"/>
+    <use fill="url(#kg-c)" xlink:href="#kg-a"/>
+    <rect width="21" height="15" fill="url(#kg-d)" mask="url(#kg-e)"/>
+    <g mask="url(#kg-e)">
+      <use fill="#000" filter="url(#kg-f)" xlink:href="#kg-g"/>
+      <use fill="url(#kg-h)" xlink:href="#kg-g"/>
+    </g>
+    <g mask="url(#kg-e)">
+      <use fill="#000" filter="url(#kg-i)" xlink:href="#kg-j"/>
+      <use fill="url(#kg-k)" xlink:href="#kg-j"/>
+    </g>
+    <use fill="#000" filter="url(#kg-l)" xlink:href="#kg-m"/>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="mk-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="mk-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="mk-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="mk-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E81B26"/>
+      <stop offset="100%" stop-color="#D00914"/>
+    </linearGradient>
+    <linearGradient id="mk-h" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE94F"/>
+      <stop offset="100%" stop-color="#FFE633"/>
+    </linearGradient>
+    <circle id="mk-g" cx="10.5" cy="7.5" r="2.5"/>
+    <filter id="mk-f" width="110%" height="120%" x="-5%" y="-5%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="mk-k" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE94F"/>
+      <stop offset="100%" stop-color="#FFE633"/>
+    </linearGradient>
+    <path id="mk-j" d="M8.17361746,10.1149955 L1.47124077,17.6479804 L-0.536151053,15.4185459 L7.65605366,9.54054396 C7.80706647,9.75064166 7.98078492,9.94332269 8.17361746,10.1149955 Z M13.3446544,9.5395585 L21.5361511,15.4185459 L19.5287592,17.6479804 L12.8263825,10.1149955 C13.0195165,9.94305432 13.1934766,9.75003918 13.3446544,9.5395585 Z M11.1871775,10.9325651 L12,15 L9,15 L9.81382046,10.9327636 C10.0357088,10.9768699 10.2651532,11 10.5,11 C10.7351989,11 10.9649792,10.9768005 11.1871775,10.9325651 Z M0,6 L7.03486764,7.00404931 C7.01188705,7.16606083 7,7.33164223 7,7.5 C7,7.66801136 7.01183818,7.83325776 7.03472592,7.99495058 L0,9 L0,6 Z M21,6 L21,9 L13.9652741,7.99495058 C13.9881618,7.83325776 14,7.66801136 14,7.5 C14,7.33164223 13.988113,7.16606083 13.9651324,7.00404931 L21,6 Z M1.47124077,-2.64798042 L8.17361746,4.88500449 C7.98078492,5.05667731 7.80706647,5.24935834 7.65605366,5.45945604 L-0.536151053,-0.418545948 L1.47124077,-2.64798042 Z M19.5287592,-2.64798042 L21.5361511,-0.418545948 L13.3439463,5.45945604 C13.1929335,5.24935834 13.0192151,5.05667731 12.8263825,4.88500449 L19.5287592,-2.64798042 Z M12,-5.72875081e-14 L11.1871775,4.06743492 C10.9649792,4.02319948 10.7351989,4 10.5,4 C10.2651532,4 10.0357088,4.02313007 9.81382046,4.0672364 L9,-5.72875081e-14 L12,-5.72875081e-14 Z"/>
+    <filter id="mk-i" width="102.3%" height="104.9%" x="-1.1%" y="-1.2%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="mk-m" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="mk-l" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="mk-e" fill="#fff">
+      <use xlink:href="#mk-a"/>
+    </mask>
+    <use fill="#000" filter="url(#mk-b)" xlink:href="#mk-a"/>
+    <use fill="url(#mk-c)" xlink:href="#mk-a"/>
+    <rect width="21" height="15" fill="url(#mk-d)" mask="url(#mk-e)"/>
+    <g mask="url(#mk-e)">
+      <use fill="#000" filter="url(#mk-f)" xlink:href="#mk-g"/>
+      <use fill="url(#mk-h)" xlink:href="#mk-g"/>
+    </g>
+    <g mask="url(#mk-e)">
+      <use fill="#000" filter="url(#mk-i)" xlink:href="#mk-j"/>
+      <use fill="url(#mk-k)" xlink:href="#mk-j"/>
+    </g>
+    <g fill="#000" mask="url(#mk-e)">
+      <use filter="url(#mk-l)" xlink:href="#mk-m"/>
+    </g>
+  </g>
+</svg>

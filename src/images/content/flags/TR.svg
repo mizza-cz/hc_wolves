@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="tr-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="tr-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="tr-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="tr-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E92434"/>
+      <stop offset="100%" stop-color="#E11324"/>
+    </linearGradient>
+    <rect id="tr-f" width="21" height="15" x="0" y="0"/>
+    <filter id="tr-e" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="tr-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <polygon id="tr-i" points="14.014 8.109 12.839 8.947 13.273 7.57 12.112 6.711 13.556 6.698 14.014 5.329 14.473 6.698 15.916 6.711 14.756 7.57 15.19 8.947 14.014 8.109 14.014 8.109"/>
+    <filter id="tr-h" width="113.6%" height="126.3%" x="-6.8%" y="-6.6%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="tr-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="tr-l" d="M9.5,3 C10.9432271,3 12.2277692,3.67941107 13.0512357,4.73584248 C12.4155874,4.27471789 11.6171672,4 10.75,4 C8.67893219,4 7,5.56700338 7,7.5 C7,9.43299662 8.67893219,11 10.75,11 C11.6171672,11 12.4155874,10.7252821 13.0508034,10.2640064 C12.2277692,11.3205889 10.9432271,12 9.5,12 C7.01471863,12 5,9.98528137 5,7.5 C5,5.01471863 7.01471863,3 9.5,3 Z"/>
+    <filter id="tr-k" width="106.2%" height="111.1%" x="-3.1%" y="-2.8%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="tr-o" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="tr-n" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="tr-d" fill="#fff">
+      <use xlink:href="#tr-a"/>
+    </mask>
+    <use fill="#000" filter="url(#tr-b)" xlink:href="#tr-a"/>
+    <use fill="url(#tr-c)" xlink:href="#tr-a"/>
+    <g mask="url(#tr-d)">
+      <use fill="#000" filter="url(#tr-e)" xlink:href="#tr-f"/>
+      <use fill="url(#tr-g)" xlink:href="#tr-f"/>
+    </g>
+    <g mask="url(#tr-d)">
+      <use fill="#000" filter="url(#tr-h)" xlink:href="#tr-i"/>
+      <use fill="url(#tr-j)" xlink:href="#tr-i"/>
+    </g>
+    <g mask="url(#tr-d)">
+      <use fill="#000" filter="url(#tr-k)" xlink:href="#tr-l"/>
+      <use fill="url(#tr-m)" xlink:href="#tr-l"/>
+    </g>
+    <g fill="#000" mask="url(#tr-d)">
+      <use filter="url(#tr-n)" xlink:href="#tr-o"/>
+    </g>
+  </g>
+</svg>

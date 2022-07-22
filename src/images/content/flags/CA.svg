@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="ca-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="ca-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ca-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="ca-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF3131"/>
+      <stop offset="100%" stop-color="red"/>
+    </linearGradient>
+    <linearGradient id="ca-f" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF3131"/>
+      <stop offset="100%" stop-color="red"/>
+    </linearGradient>
+    <linearGradient id="ca-i" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="ca-h" width="9" height="15" x="6" y="0"/>
+    <filter id="ca-g" width="116.7%" height="110%" x="-8.3%" y="-5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ca-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF3131"/>
+      <stop offset="100%" stop-color="red"/>
+    </linearGradient>
+    <rect id="ca-l" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ca-k" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="ca-e" fill="#fff">
+      <use xlink:href="#ca-a"/>
+    </mask>
+    <use fill="#000" filter="url(#ca-b)" xlink:href="#ca-a"/>
+    <use fill="url(#ca-c)" xlink:href="#ca-a"/>
+    <rect width="11" height="15" x="10" fill="url(#ca-d)" mask="url(#ca-e)"/>
+    <rect width="7" height="15" fill="url(#ca-f)" mask="url(#ca-e)"/>
+    <g mask="url(#ca-e)">
+      <use fill="#000" filter="url(#ca-g)" xlink:href="#ca-h"/>
+      <use fill="url(#ca-i)" xlink:href="#ca-h"/>
+    </g>
+    <path fill="url(#ca-j)" d="M11.6741867,7.32581329 C11.577986,7.42201396 11.5214844,7.39257812 11.5497699,7.25115061 L12,5 L11,5.5 L10.5,4 L10,5.5 L9,5 L9.45023012,7.25115061 C9.47771727,7.38858633 9.42153168,7.42153168 9.32581329,7.32581329 L8.67418671,6.67418671 C8.57798604,6.57798604 8.421875,6.578125 8.31948853,6.68051147 L8,7 L7,6.5 L7.5,7.5 L7.18051147,7.81948853 C7.08081774,7.91918226 7.08064651,8.08064651 7.17206907,8.17206907 L8.5,9.5 L10,9.5 L10.25,11 L10.75,11 L11,9.5 L12.5,9.5 L13.8279309,8.17206907 C13.9229621,8.07703795 13.921875,7.921875 13.8194885,7.81948853 L13.5,7.5 L14,6.5 L13,7 L12.6805115,6.68051147 C12.5808177,6.58081774 12.4215317,6.57846832 12.3258133,6.67418671 L11.6741867,7.32581329 Z" mask="url(#ca-e)"/>
+    <g fill="#000" mask="url(#ca-e)">
+      <use filter="url(#ca-k)" xlink:href="#ca-l"/>
+    </g>
+  </g>
+</svg>

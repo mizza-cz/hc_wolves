@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <filter id="tw-a" width="111.9%" height="123.3%" x="-6%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="tw-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="tw-b" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="tw-c" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="tw-f" x1="50%" x2="50%" y1="0%" y2="93.767%">
+      <stop offset="0%" stop-color="#FE3030"/>
+      <stop offset="100%" stop-color="red"/>
+    </linearGradient>
+    <rect id="tw-g" width="23" height="17" x="-1" y="-1"/>
+    <filter id="tw-h" width="102.2%" height="102.9%" x="-1.1%" y="-1.5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius=".5" result="shadowSpreadInner1"/>
+      <feOffset in="shadowSpreadInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="tw-i" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0909B6"/>
+      <stop offset="100%" stop-color="#000096"/>
+    </linearGradient>
+    <rect id="tw-j" width="12" height="9" x="-1" y="-1"/>
+    <filter id="tw-k" width="104.2%" height="105.6%" x="-2.1%" y="-2.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius=".5" result="shadowSpreadInner1"/>
+      <feOffset in="shadowSpreadInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="tw-n" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <polygon id="tw-m" points="5.5 5.25 4.543 6.31 4.616 4.884 3.19 4.957 4.25 4 3.19 3.043 4.616 3.116 4.543 1.69 5.5 2.75 6.457 1.69 6.384 3.116 7.81 3.043 6.75 4 7.81 4.957 6.384 4.884 6.457 6.31"/>
+    <filter id="tw-l" width="102.4%" height="112.4%" x="-1.2%" y="-1.2%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="tw-p" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="tw-o" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#tw-a)" transform="translate(1 1)">
+    <mask id="tw-e" fill="#fff">
+      <use xlink:href="#tw-b"/>
+    </mask>
+    <use fill="#000" filter="url(#tw-c)" xlink:href="#tw-b"/>
+    <use fill="url(#tw-d)" xlink:href="#tw-b"/>
+    <g mask="url(#tw-e)">
+      <use fill="url(#tw-f)" xlink:href="#tw-g"/>
+      <use fill="#000" filter="url(#tw-h)" xlink:href="#tw-g"/>
+    </g>
+    <g mask="url(#tw-e)">
+      <use fill="url(#tw-i)" xlink:href="#tw-j"/>
+      <use fill="#000" filter="url(#tw-k)" xlink:href="#tw-j"/>
+    </g>
+    <g mask="url(#tw-e)">
+      <use fill="#000" filter="url(#tw-l)" xlink:href="#tw-m"/>
+      <use fill="url(#tw-n)" xlink:href="#tw-m"/>
+    </g>
+    <g fill="#000" mask="url(#tw-e)">
+      <use filter="url(#tw-o)" xlink:href="#tw-p"/>
+    </g>
+  </g>
+</svg>

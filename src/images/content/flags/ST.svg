@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="st-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="st-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="st-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="st-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ACB41"/>
+      <stop offset="100%" stop-color="#21AC35"/>
+    </linearGradient>
+    <rect id="st-f" width="21" height="5" x="0" y="10"/>
+    <filter id="st-e" width="107.1%" height="130%" x="-3.6%" y="-15%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="st-i" width="21" height="5" x="0" y="0"/>
+    <filter id="st-h" width="107.1%" height="130%" x="-3.6%" y="-15%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="st-l" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDD043"/>
+      <stop offset="100%" stop-color="#FFCD2F"/>
+    </linearGradient>
+    <rect id="st-k" width="21" height="5" x="0" y="5"/>
+    <filter id="st-j" width="107.1%" height="130%" x="-3.6%" y="-15%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="st-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E71E43"/>
+      <stop offset="100%" stop-color="#D01739"/>
+    </linearGradient>
+    <linearGradient id="st-n" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#262626"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <rect id="st-p" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="st-o" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="st-d" fill="#fff">
+      <use xlink:href="#st-a"/>
+    </mask>
+    <use fill="#000" filter="url(#st-b)" xlink:href="#st-a"/>
+    <use fill="url(#st-c)" xlink:href="#st-a"/>
+    <g mask="url(#st-d)">
+      <use fill="#000" filter="url(#st-e)" xlink:href="#st-f"/>
+      <use fill="url(#st-g)" xlink:href="#st-f"/>
+    </g>
+    <g mask="url(#st-d)">
+      <use fill="#000" filter="url(#st-h)" xlink:href="#st-i"/>
+      <use fill="url(#st-g)" xlink:href="#st-i"/>
+    </g>
+    <g mask="url(#st-d)">
+      <use fill="#000" filter="url(#st-j)" xlink:href="#st-k"/>
+      <use fill="url(#st-l)" xlink:href="#st-k"/>
+    </g>
+    <polygon fill="url(#st-m)" points="0 0 8 7.5 0 15" mask="url(#st-d)"/>
+    <polygon fill="url(#st-n)" points="11 8.32 9.824 9.118 10.22 7.753 9.098 6.882 10.518 6.837 11 5.5 11.482 6.837 12.902 6.882 11.78 7.753 12.176 9.118" mask="url(#st-d)"/>
+    <polygon fill="url(#st-n)" points="16 8.32 14.824 9.118 15.22 7.753 14.098 6.882 15.518 6.837 16 5.5 16.482 6.837 17.902 6.882 16.78 7.753 17.176 9.118" mask="url(#st-d)"/>
+    <g fill="#000" mask="url(#st-d)">
+      <use filter="url(#st-o)" xlink:href="#st-p"/>
+    </g>
+  </g>
+</svg>

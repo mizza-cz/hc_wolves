@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="tg-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="tg-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="tg-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="tg-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD44D"/>
+      <stop offset="100%" stop-color="#FFCD2F"/>
+    </linearGradient>
+    <linearGradient id="tg-f" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#159A74"/>
+      <stop offset="100%" stop-color="#0C6A4F"/>
+    </linearGradient>
+    <linearGradient id="tg-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ED1F45"/>
+      <stop offset="100%" stop-color="#D01739"/>
+    </linearGradient>
+    <linearGradient id="tg-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <polygon id="tg-i" points="4.5 5.67 2.737 6.927 3.387 4.862 1.647 3.573 3.812 3.553 4.5 1.5 5.188 3.553 7.353 3.573 5.613 4.862 6.263 6.927"/>
+    <filter id="tg-h" width="103.4%" height="107.1%" x="-1.7%" y="-4.2%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="tg-l" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="tg-k" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="tg-e" fill="#fff">
+      <use xlink:href="#tg-a"/>
+    </mask>
+    <use fill="#000" filter="url(#tg-b)" xlink:href="#tg-a"/>
+    <use fill="url(#tg-c)" xlink:href="#tg-a"/>
+    <rect width="21" height="15" fill="url(#tg-d)" mask="url(#tg-e)"/>
+    <path fill="url(#tg-f)" d="M21,12 L21,15 L0,15 L0,12 L21,12 Z M21,6 L21,9 L9,9 L9,6 L21,6 Z M21,0 L21,3 L9,3 L9,0 L21,0 Z" mask="url(#tg-e)"/>
+    <rect width="9" height="9" fill="url(#tg-g)" mask="url(#tg-e)"/>
+    <g mask="url(#tg-e)">
+      <use fill="#000" filter="url(#tg-h)" xlink:href="#tg-i"/>
+      <use fill="url(#tg-j)" xlink:href="#tg-i"/>
+    </g>
+    <g fill="#000" mask="url(#tg-e)">
+      <use filter="url(#tg-k)" xlink:href="#tg-l"/>
+    </g>
+  </g>
+</svg>

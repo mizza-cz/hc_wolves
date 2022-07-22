@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="np-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="np-a" d="M0,1.49309635 C0,0.668482007 0.677108765,6.56491247e-10 1.49531555,1.44971324e-09 L1.49531555,1.44971324e-09 C1.77404508,1.71993147e-09 2.18849134,0.125660898 2.41306716,0.27537811 L13.1751914,7.4501276 C13.6307206,7.75381374 13.5469637,8 13.0029699,8 L6,8 L13.2473794,14.341457 C13.6630403,14.7051603 13.5500512,15 12.9931545,15 L1.49824524,15 C0.670787242,15 0,14.3361142 0,13.5069036 L0,1.49309635 Z"/>
+    <filter id="np-b" width="125.9%" height="123.3%" x="-13%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="np-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#EE1B44"/>
+      <stop offset="100%" stop-color="#DD153C"/>
+    </linearGradient>
+    <linearGradient id="np-e" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0543A8"/>
+      <stop offset="100%" stop-color="#003893"/>
+    </linearGradient>
+    <path id="np-g" d="M0,1.49309635 C0,0.668482007 0.677108765,0 1.49531555,0 L1.49531555,0 C1.77404508,0 2.18849134,0.125660896 2.41306716,0.275378108 L13.1751914,7.4501276 C13.6307206,7.75381374 13.5469637,8 13.0029699,8 L6,8 L13.2473794,14.341457 C13.6630403,14.7051603 13.5500512,15 12.9931545,15 L1.49824524,15 C0.670787242,15 0,14.3361142 0,13.5069036 L0,1.49309635 Z"/>
+    <filter id="np-h" width="103.7%" height="103.3%" x="-1.9%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="np-l" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="np-k" d="M4.76536686,9.15224093 L4.70710678,10.2928932 L5.84775907,10.2346331 L5,11 L5.84775907,11.7653669 L4.70710678,11.7071068 L4.76536686,12.8477591 L4,12 L3.23463314,12.8477591 L3.29289322,11.7071068 L2.15224093,11.7653669 L3,11 L2.15224093,10.2346331 L3.29289322,10.2928932 L3.23463314,9.15224093 L4,10 L4.76536686,9.15224093 Z M4.57402515,4.1141807 L4.53033009,4.96966991 L5.3858193,4.92597485 L4.75,5.5 L5.13915907,5.85034418 C5.42649449,5.77153097 5.6914351,5.66383702 5.92584925,5.53268345 C5.6933431,6.3788238 4.9184336,7 3.99844063,7 C3.07844765,7 2.30353815,6.3788238 2.07024849,5.53300774 C2.30647172,5.66441947 2.57280242,5.7725162 2.86170201,5.85143357 L3.25,5.5 L2.6141807,4.92597485 L3.46966991,4.96966991 L3.42597485,4.1141807 L4,4.75 L4.57402515,4.1141807 Z"/>
+    <filter id="np-j" width="112.9%" height="111.5%" x="-6.5%" y="-2.9%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="np-f" fill="#fff">
+      <use xlink:href="#np-a"/>
+    </mask>
+    <use fill="#000" filter="url(#np-b)" xlink:href="#np-a"/>
+    <use fill="url(#np-c)" xlink:href="#np-a"/>
+    <path fill="url(#np-d)" stroke="url(#np-e)" d="M1.49531555,0.5 L0.5,0.5 L0.5,14.474527 L11.9875249,13.9034684 L4.77489801,7.59241987 L11.692091,7.06231924 L2.13571706,0.691403255 C1.97900942,0.586931492 1.68968412,0.5 1.49531555,0.5 Z" mask="url(#np-f)"/>
+    <mask id="np-i" fill="#fff">
+      <use xlink:href="#np-g"/>
+    </mask>
+    <use fill="#000" filter="url(#np-h)" xlink:href="#np-g"/>
+    <g mask="url(#np-i)">
+      <use fill="#000" filter="url(#np-j)" xlink:href="#np-k"/>
+      <use fill="url(#np-l)" xlink:href="#np-k"/>
+    </g>
+  </g>
+</svg>

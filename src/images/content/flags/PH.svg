@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="ph-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="ph-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ph-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="ph-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#DD1C34"/>
+      <stop offset="100%" stop-color="#CC162C"/>
+    </linearGradient>
+    <rect id="ph-f" width="21" height="8" x="0" y="7"/>
+    <filter id="ph-e" width="107.1%" height="118.8%" x="-3.6%" y="-9.4%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ph-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D4BC3"/>
+      <stop offset="100%" stop-color="#073DA6"/>
+    </linearGradient>
+    <rect id="ph-i" width="21" height="7" x="0" y="0"/>
+    <filter id="ph-h" width="107.1%" height="121.4%" x="-3.6%" y="-10.7%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ph-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <polygon id="ph-l" points="0 0 10 7.5 0 15"/>
+    <filter id="ph-k" width="118.3%" height="116.7%" x="-7.5%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ph-n" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDD64D"/>
+      <stop offset="100%" stop-color="#FCD036"/>
+    </linearGradient>
+    <rect id="ph-p" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ph-o" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="ph-d" fill="#fff">
+      <use xlink:href="#ph-a"/>
+    </mask>
+    <use fill="#000" filter="url(#ph-b)" xlink:href="#ph-a"/>
+    <use fill="url(#ph-c)" xlink:href="#ph-a"/>
+    <g mask="url(#ph-d)">
+      <use fill="#000" filter="url(#ph-e)" xlink:href="#ph-f"/>
+      <use fill="url(#ph-g)" xlink:href="#ph-f"/>
+    </g>
+    <g mask="url(#ph-d)">
+      <use fill="#000" filter="url(#ph-h)" xlink:href="#ph-i"/>
+      <use fill="url(#ph-j)" xlink:href="#ph-i"/>
+    </g>
+    <g mask="url(#ph-d)">
+      <use fill="#000" filter="url(#ph-k)" xlink:href="#ph-l"/>
+      <use fill="url(#ph-m)" xlink:href="#ph-l"/>
+    </g>
+    <path fill="url(#ph-n)" d="M1.5,12 C1.77614237,12 2,12.2238576 2,12.5 C2,12.7761424 1.77614237,13 1.5,13 C1.22385763,13 1,12.7761424 1,12.5 C1,12.2238576 1.22385763,12 1.5,12 Z M4.45670858,5.19030117 L4.13169425,6.72474221 C4.18425703,6.76762296 4.23237704,6.81574297 4.27525779,6.86830575 L5.80969883,6.54329142 L4.494,7.399 L4.5,7.5 C4.5,7.53434776 4.4982683,7.56829106 4.49488744,7.60174735 L5.80969883,8.45670858 L4.27525779,8.13169425 C4.23237704,8.18425703 4.18425703,8.23237704 4.13169425,8.27525779 L4.45670858,9.80969883 L3.601,8.494 L3.5,8.5 C3.46594581,8.5 3.4322892,8.49829778 3.39911061,8.49497377 L2.54329142,9.80969883 L2.86830575,8.27525779 C2.81574297,8.23237704 2.76762296,8.18425703 2.72474221,8.13169425 L1.19030117,8.45670858 L2.505,7.601 L2.5,7.5 C2.5,7.46594581 2.50170222,7.4322892 2.50502623,7.39911061 L1.19030117,6.54329142 L2.72474221,6.86830575 C2.76762296,6.81574297 2.81574297,6.76762296 2.86830575,6.72474221 L2.54329142,5.19030117 L3.398,6.505 L3.5,6.5 C3.53400768,6.5 3.56761887,6.50169758 3.60075346,6.50501262 L4.45670858,5.19030117 Z M7.5,7 C7.77614237,7 8,7.22385763 8,7.5 C8,7.77614237 7.77614237,8 7.5,8 C7.22385763,8 7,7.77614237 7,7.5 C7,7.22385763 7.22385763,7 7.5,7 Z M1.5,2 C1.77614237,2 2,2.22385763 2,2.5 C2,2.77614237 1.77614237,3 1.5,3 C1.22385763,3 1,2.77614237 1,2.5 C1,2.22385763 1.22385763,2 1.5,2 Z" mask="url(#ph-d)"/>
+    <g fill="#000" mask="url(#ph-d)">
+      <use filter="url(#ph-o)" xlink:href="#ph-p"/>
+    </g>
+  </g>
+</svg>

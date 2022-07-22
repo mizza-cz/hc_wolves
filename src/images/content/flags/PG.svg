@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="pg-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="pg-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="pg-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="pg-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#262626"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <linearGradient id="pg-f" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8283F"/>
+      <stop offset="100%" stop-color="#CC162C"/>
+    </linearGradient>
+    <linearGradient id="pg-i" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <polygon id="pg-h" points="5 12.5 4.293 12.707 4.5 12 4.293 11.293 5 11.5 5.707 11.293 5.5 12 5.707 12.707"/>
+    <filter id="pg-g" width="95.7%" height="120.7%" x="2.1%" y="2.1%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <polygon id="pg-k" points="5 6.5 4.293 6.707 4.5 6 4.293 5.293 5 5.5 5.707 5.293 5.5 6 5.707 6.707"/>
+    <filter id="pg-j" width="95.7%" height="120.7%" x="2.1%" y="2.1%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <polygon id="pg-m" points="2.5 9 1.793 9.207 2 8.5 1.793 7.793 2.5 8 3.207 7.793 3 8.5 3.207 9.207"/>
+    <filter id="pg-l" width="95.7%" height="120.7%" x="2.1%" y="2.1%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <polygon id="pg-o" points="7 8.5 6.293 8.707 6.5 8 6.293 7.293 7 7.5 7.707 7.293 7.5 8 7.707 8.707"/>
+    <filter id="pg-n" width="95.7%" height="120.7%" x="2.1%" y="2.1%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="pg-r" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD84E"/>
+      <stop offset="100%" stop-color="#FCD036"/>
+    </linearGradient>
+    <path id="pg-q" d="M14.145932,6.94917745 C14.0262171,6.87734852 13.929169,6.70814871 13.9291691,6.57278248 L13.9291691,5.65124336 C13.9291691,5.51519509 13.8312859,5.4375339 13.6831664,5.48690708 L13.1145117,5.67645866 C12.9786481,5.72174651 12.7706257,5.72583183 12.6225062,5.67645866 L12.0538515,5.48690708 C11.9179879,5.44161923 11.9028916,5.34788048 12.0246117,5.27484842 L13.3588528,4.47430376 C13.4785676,4.40247484 13.542988,4.24636281 13.4936148,4.09824328 L13.3040632,3.52958856 C13.2587754,3.393725 13.3199455,3.31621356 13.468065,3.36558674 L14.0367198,3.55513831 C14.1725833,3.60042616 14.3397482,3.54209639 14.4127803,3.42037629 L15.2133249,2.0861352 C15.2851538,1.96642034 15.3760104,1.96725546 15.4253836,2.11537499 L15.6149352,2.68402971 C15.660223,2.81989327 15.6643083,3.02791563 15.6149352,3.17603516 L15.4253836,3.74468989 C15.3800957,3.88055344 15.4543536,3.99069261 15.5897199,3.9906926 L16.511259,3.99069256 C16.6473072,3.99069255 16.8146219,4.08573538 16.8876539,4.20745548 L17.6881986,5.54169663 C17.7600276,5.66141149 17.7022683,5.78165719 17.572456,5.80761965 L16.2962899,6.06285287 C16.160538,6.09000324 16.0272918,6.22800109 16.0013294,6.35781339 L15.7460962,7.63397958 C15.7189459,7.76973141 15.6018933,7.8227543 15.4801732,7.74972223 L14.145932,6.94917745 L14.145932,6.94917745 Z"/>
+    <filter id="pg-p" width="108.7%" height="117.3%" x="-4.3%" y="-4.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="pg-t" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="pg-s" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="pg-e" fill="#fff">
+      <use xlink:href="#pg-a"/>
+    </mask>
+    <use fill="#000" filter="url(#pg-b)" xlink:href="#pg-a"/>
+    <use fill="url(#pg-c)" xlink:href="#pg-a"/>
+    <rect width="21" height="15" fill="url(#pg-d)" mask="url(#pg-e)"/>
+    <polygon fill="url(#pg-f)" points="0 0 21 0 21 15" mask="url(#pg-e)"/>
+    <g mask="url(#pg-e)">
+      <use fill="#000" filter="url(#pg-g)" xlink:href="#pg-h"/>
+      <use fill="url(#pg-i)" xlink:href="#pg-h"/>
+    </g>
+    <g mask="url(#pg-e)">
+      <use fill="#000" filter="url(#pg-j)" xlink:href="#pg-k"/>
+      <use fill="url(#pg-i)" xlink:href="#pg-k"/>
+    </g>
+    <g mask="url(#pg-e)">
+      <use fill="#000" filter="url(#pg-l)" xlink:href="#pg-m"/>
+      <use fill="url(#pg-i)" xlink:href="#pg-m"/>
+    </g>
+    <g mask="url(#pg-e)">
+      <use fill="#000" filter="url(#pg-n)" xlink:href="#pg-o"/>
+      <use fill="url(#pg-i)" xlink:href="#pg-o"/>
+    </g>
+    <g mask="url(#pg-e)">
+      <use fill="#000" filter="url(#pg-p)" xlink:href="#pg-q"/>
+      <use fill="url(#pg-r)" xlink:href="#pg-q"/>
+    </g>
+    <g fill="#000" mask="url(#pg-e)">
+      <use filter="url(#pg-s)" xlink:href="#pg-t"/>
+    </g>
+  </g>
+</svg>

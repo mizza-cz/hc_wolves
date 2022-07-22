@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="gy-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="gy-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="gy-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="gy-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#08C55F"/>
+      <stop offset="100%" stop-color="#009F49"/>
+    </linearGradient>
+    <rect id="gy-f" width="21" height="15" x="0" y="0"/>
+    <filter id="gy-e" width="107.1%" height="110%" x="-3.6%" y="-5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="gy-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD831"/>
+      <stop offset="100%" stop-color="#FDD117"/>
+    </linearGradient>
+    <linearGradient id="gy-k" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <polygon id="gy-i" points="-1 15 -1 0 0 0 21 7 21 8 0 15"/>
+    <filter id="gy-h" width="106.8%" height="110%" x="-3.4%" y="-5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="gy-l" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E92034"/>
+      <stop offset="100%" stop-color="#CE1225"/>
+    </linearGradient>
+    <linearGradient id="gy-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#262626"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <rect id="gy-o" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="gy-n" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="gy-d" fill="#fff">
+      <use xlink:href="#gy-a"/>
+    </mask>
+    <use fill="#000" filter="url(#gy-b)" xlink:href="#gy-a"/>
+    <use fill="url(#gy-c)" xlink:href="#gy-a"/>
+    <g mask="url(#gy-d)">
+      <use fill="#000" filter="url(#gy-e)" xlink:href="#gy-f"/>
+      <use fill="url(#gy-g)" xlink:href="#gy-f"/>
+    </g>
+    <g mask="url(#gy-d)">
+      <use fill="#000" filter="url(#gy-h)" xlink:href="#gy-i"/>
+      <path fill="url(#gy-j)" stroke="url(#gy-k)" stroke-linejoin="square" d="M-0.5,0.5 L-0.5,14.5 L-0.0811388301,14.5 L20.5,7.63962039 L20.5,7.36037961 L-0.5,0.5 Z"/>
+    </g>
+    <path fill="url(#gy-l)" stroke="url(#gy-m)" d="M-0.5,0.5 L-0.5,14.5 L-0.148635348,14.5 L10.584698,7.5 L-0.5,0.5 Z" mask="url(#gy-d)"/>
+    <g fill="#000" mask="url(#gy-d)">
+      <use filter="url(#gy-n)" xlink:href="#gy-o"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="ch2-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="ch2-a" width="17" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ch2-b" width="120.6%" height="123.3%" x="-10.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="ch2-g" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="red"/>
+      <stop offset="100%" stop-color="#FF3131"/>
+    </linearGradient>
+    <rect id="ch2-f" width="17" height="15" x="0" y="0"/>
+    <filter id="ch2-e" width="120.6%" height="123.3%" x="-10.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="ch2-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="ch2-i" d="M7,9 L4.25577831,9 C4.11451585,9 4,8.88605976 4,8.74422169 L4,6.25577831 C4,6.11451585 4.11394024,6 4.25577831,6 L7,6 L7,3.25577831 C7,3.11451585 7.11394024,3 7.25577831,3 L9.74422169,3 C9.88548415,3 10,3.11394024 10,3.25577831 L10,6 L12.7442217,6 C12.8854841,6 13,6.11394024 13,6.25577831 L13,8.74422169 C13,8.88548415 12.8860598,9 12.7442217,9 L10,9 L10,11.7442217 C10,11.8854841 9.88605976,12 9.74422169,12 L7.25577831,12 C7.11451585,12 7,11.8860598 7,11.7442217 L7,9 Z"/>
+    <filter id="ch2-h" width="105.6%" height="111.1%" x="-2.8%" y="-2.8%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="ch2-l" width="17" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ch2-k" width="102.9%" height="103.3%" x="-1.5%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(3 1)">
+    <mask id="ch2-d" fill="#fff">
+      <use xlink:href="#ch2-a"/>
+    </mask>
+    <use fill="#000" filter="url(#ch2-b)" xlink:href="#ch2-a"/>
+    <use fill="url(#ch2-c)" xlink:href="#ch2-a"/>
+    <g mask="url(#ch2-d)">
+      <use fill="#000" filter="url(#ch2-e)" xlink:href="#ch2-f"/>
+      <use fill="url(#ch2-g)" xlink:href="#ch2-f"/>
+    </g>
+    <g mask="url(#ch2-d)">
+      <use fill="#000" filter="url(#ch2-h)" xlink:href="#ch2-i"/>
+      <use fill="url(#ch2-j)" xlink:href="#ch2-i"/>
+    </g>
+    <g fill="#000" mask="url(#ch2-d)">
+      <use filter="url(#ch2-k)" xlink:href="#ch2-l"/>
+    </g>
+  </g>
+</svg>

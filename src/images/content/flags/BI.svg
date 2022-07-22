@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="bi-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="bi-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="bi-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="bi-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E4233B"/>
+      <stop offset="100%" stop-color="#CC162C"/>
+    </linearGradient>
+    <linearGradient id="bi-h" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#34CD4E"/>
+      <stop offset="100%" stop-color="#2AB441"/>
+    </linearGradient>
+    <polygon id="bi-g" points="0 0 9 7.5 0 15"/>
+    <filter id="bi-f" width="119.8%" height="117.6%" x="-8.3%" y="-8.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <polygon id="bi-j" points="12 0 21 7.5 12 15"/>
+    <filter id="bi-i" width="119.8%" height="117.6%" x="-8.3%" y="-8.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="bi-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="bi-l" d="M21.9618519,-1.43733467 L23.0802377,0.220740472 L13.8408892,6.45357277 C13.9442786,6.78399855 14,7.13549207 14,7.5 C14,7.86463345 13.9442403,8.21624352 13.8407824,8.54676857 L23.0802377,14.7792595 L21.9618519,16.4373347 L12.7212369,10.2049612 C12.1169728,10.7017437 11.3433172,11 10.5,11 C9.65668285,11 8.88302718,10.7017437 8.27876309,10.2049612 L-0.961851899,16.4373347 L-2.08023771,14.7792595 L7.15952936,8.54776407 C7.05587177,8.21694955 7,7.86499955 7,7.5 C7,7.13512388 7.05583399,6.78328848 7.15942422,6.45257154 L-2.08023771,0.220740472 L-0.961851899,-1.43733467 L8.27876309,4.79503878 C8.88302718,4.29825629 9.65668285,4 10.5,4 C11.3433172,4 12.1169728,4.29825629 12.7212369,4.79503878 L21.9618519,-1.43733467 Z"/>
+    <filter id="bi-k" width="107.5%" height="110.6%" x="-3.8%" y="-5.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="bi-n" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#DF2239"/>
+      <stop offset="100%" stop-color="#CC162C"/>
+    </linearGradient>
+    <rect id="bi-p" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="bi-o" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="bi-e" fill="#fff">
+      <use xlink:href="#bi-a"/>
+    </mask>
+    <use fill="#000" filter="url(#bi-b)" xlink:href="#bi-a"/>
+    <use fill="url(#bi-c)" xlink:href="#bi-a"/>
+    <rect width="21" height="15" fill="url(#bi-d)" mask="url(#bi-e)"/>
+    <g mask="url(#bi-e)">
+      <use fill="#000" filter="url(#bi-f)" xlink:href="#bi-g"/>
+      <use fill="url(#bi-h)" xlink:href="#bi-g"/>
+    </g>
+    <g mask="url(#bi-e)" transform="matrix(-1 0 0 1 33 0)">
+      <use fill="#000" filter="url(#bi-i)" xlink:href="#bi-j"/>
+      <use fill="url(#bi-h)" xlink:href="#bi-j"/>
+    </g>
+    <g mask="url(#bi-e)">
+      <use fill="#000" filter="url(#bi-k)" xlink:href="#bi-l"/>
+      <use fill="url(#bi-m)" xlink:href="#bi-l"/>
+    </g>
+    <path fill="url(#bi-n)" d="M9.70710678,7.79289322 L9.5,8.5 L9.70710678,9.20710678 L9,9 L8.29289322,9.20710678 L8.5,8.5 L8.29289322,7.79289322 L9,8 L9.70710678,7.79289322 Z M12.7071068,7.79289322 L12.5,8.5 L12.7071068,9.20710678 L12,9 L11.2928932,9.20710678 L11.5,8.5 L11.2928932,7.79289322 L12,8 L12.7071068,7.79289322 Z M11.2071068,5.29289322 L11,6 L11.2071068,6.70710678 L10.5,6.5 L9.79289322,6.70710678 L10,6 L9.79289322,5.29289322 L10.5,5.5 L11.2071068,5.29289322 Z" mask="url(#bi-e)"/>
+    <use fill="#000" filter="url(#bi-o)" xlink:href="#bi-p"/>
+  </g>
+</svg>

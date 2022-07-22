@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="ve-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="ve-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ve-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="ve-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#063191"/>
+      <stop offset="100%" stop-color="#03287C"/>
+    </linearGradient>
+    <rect id="ve-f" width="21" height="5" x="0" y="5"/>
+    <filter id="ve-e" width="107.1%" height="130%" x="-3.6%" y="-15%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ve-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E2213B"/>
+      <stop offset="100%" stop-color="#CD1931"/>
+    </linearGradient>
+    <rect id="ve-i" width="21" height="5" x="0" y="10"/>
+    <filter id="ve-h" width="107.1%" height="130%" x="-3.6%" y="-15%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ve-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="ve-l" d="M7.5,8 C7.77614237,8 8,8.22385763 8,8.5 C8,8.77614237 7.77614237,9 7.5,9 C7.22385763,9 7,8.77614237 7,8.5 C7,8.22385763 7.22385763,8 7.5,8 Z M13.5,8 C13.7761424,8 14,8.22385763 14,8.5 C14,8.77614237 13.7761424,9 13.5,9 C13.2238576,9 13,8.77614237 13,8.5 C13,8.22385763 13.2238576,8 13.5,8 Z M8.5,6.5 C8.77614237,6.5 9,6.72385763 9,7 C9,7.27614237 8.77614237,7.5 8.5,7.5 C8.22385763,7.5 8,7.27614237 8,7 C8,6.72385763 8.22385763,6.5 8.5,6.5 Z M12.5,6.5 C12.7761424,6.5 13,6.72385763 13,7 C13,7.27614237 12.7761424,7.5 12.5,7.5 C12.2238576,7.5 12,7.27614237 12,7 C12,6.72385763 12.2238576,6.5 12.5,6.5 Z M10.5,6 C10.7761424,6 11,6.22385763 11,6.5 C11,6.77614237 10.7761424,7 10.5,7 C10.2238576,7 10,6.77614237 10,6.5 C10,6.22385763 10.2238576,6 10.5,6 Z"/>
+    <filter id="ve-k" width="107.1%" height="133.3%" x="-3.6%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ve-p" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD044"/>
+      <stop offset="100%" stop-color="#FFCB2F"/>
+    </linearGradient>
+    <rect id="ve-o" width="21" height="5" x="0" y="0"/>
+    <filter id="ve-n" width="107.1%" height="130%" x="-3.6%" y="-15%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="ve-r" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ve-q" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="ve-d" fill="#fff">
+      <use xlink:href="#ve-a"/>
+    </mask>
+    <use fill="#000" filter="url(#ve-b)" xlink:href="#ve-a"/>
+    <use fill="url(#ve-c)" xlink:href="#ve-a"/>
+    <g mask="url(#ve-d)">
+      <use fill="#000" filter="url(#ve-e)" xlink:href="#ve-f"/>
+      <use fill="url(#ve-g)" xlink:href="#ve-f"/>
+    </g>
+    <g mask="url(#ve-d)">
+      <use fill="#000" filter="url(#ve-h)" xlink:href="#ve-i"/>
+      <use fill="url(#ve-j)" xlink:href="#ve-i"/>
+    </g>
+    <g mask="url(#ve-d)">
+      <use fill="#000" filter="url(#ve-k)" xlink:href="#ve-l"/>
+      <use fill="url(#ve-m)" xlink:href="#ve-l"/>
+    </g>
+    <g mask="url(#ve-d)">
+      <use fill="#000" filter="url(#ve-n)" xlink:href="#ve-o"/>
+      <use fill="url(#ve-p)" xlink:href="#ve-o"/>
+    </g>
+    <g fill="#000" mask="url(#ve-d)">
+      <use filter="url(#ve-q)" xlink:href="#ve-r"/>
+    </g>
+  </g>
+</svg>

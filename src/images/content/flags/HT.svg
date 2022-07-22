@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="ht-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="ht-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ht-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="ht-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#112EBC"/>
+      <stop offset="100%" stop-color="#0620A0"/>
+    </linearGradient>
+    <rect id="ht-f" width="21" height="7" x="0" y="0"/>
+    <filter id="ht-e" width="107.1%" height="121.4%" x="-3.6%" y="-10.7%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ht-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E3264A"/>
+      <stop offset="100%" stop-color="#D20F34"/>
+    </linearGradient>
+    <rect id="ht-i" width="21" height="8" x="0" y="7"/>
+    <filter id="ht-h" width="107.1%" height="118.8%" x="-3.6%" y="-9.4%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="ht-l" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="ht-k" width="7" height="6" x="0" y="0" rx=".5"/>
+    <rect id="ht-o" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ht-n" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="ht-d" fill="#fff">
+      <use xlink:href="#ht-a"/>
+    </mask>
+    <use fill="#000" filter="url(#ht-b)" xlink:href="#ht-a"/>
+    <use fill="url(#ht-c)" xlink:href="#ht-a"/>
+    <g mask="url(#ht-d)">
+      <use fill="#000" filter="url(#ht-e)" xlink:href="#ht-f"/>
+      <use fill="url(#ht-g)" xlink:href="#ht-f"/>
+    </g>
+    <g mask="url(#ht-d)">
+      <use fill="#000" filter="url(#ht-h)" xlink:href="#ht-i"/>
+      <use fill="url(#ht-j)" xlink:href="#ht-i"/>
+    </g>
+    <g mask="url(#ht-d)">
+      <g transform="translate(7 5)">
+        <mask id="ht-m" fill="#fff">
+          <use xlink:href="#ht-k"/>
+        </mask>
+        <use fill="url(#ht-l)" xlink:href="#ht-k"/>
+        <path fill="#AABCAE" stroke="#366C14" stroke-width=".5" d="M4.00104344,4.25 L2.99895656,4.25 C2.47550206,4.25 1.68205633,4.43848033 1.21709834,4.67095933 L0.25,5.1545085 L0.25,5.75 L6.75,5.75 L6.75,5.1545085 L5.78290166,4.67095933 C5.321855,4.440436 4.52018103,4.25 4.00104344,4.25 Z" mask="url(#ht-m)"/>
+        <circle cx="3.5" cy="2.5" r="1.5" fill="#D4B872" mask="url(#ht-m)"/>
+        <path fill="#C28321" stroke="#0D3488" stroke-width=".5" d="M5.44056416,3.19066377 L3.10826459,4.47342853 L1.38269217,3.50683172 L1.68726199,4.7271259 L5.6929197,4.27702018 L5.44056416,3.19066377 Z" mask="url(#ht-m)"/>
+        <path fill="#216C30" d="M2.17206907,1.17206907 C2.07703795,1.07703795 2.11394024,1 2.25577831,1 L4.74422169,1 C4.88548415,1 4.91935349,1.08064651 4.82793093,1.17206907 L3.67206907,2.32793093 C3.57703795,2.42296205 3.41935349,2.41935349 3.32793093,2.32793093 L2.17206907,1.17206907 Z" mask="url(#ht-m)"/>
+      </g>
+    </g>
+    <g fill="#000" mask="url(#ht-d)">
+      <use filter="url(#ht-n)" xlink:href="#ht-o"/>
+    </g>
+  </g>
+</svg>

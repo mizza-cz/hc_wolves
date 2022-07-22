@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="ma-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="ma-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ma-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="ma-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E33B44"/>
+      <stop offset="100%" stop-color="#C02A32"/>
+    </linearGradient>
+    <rect id="ma-g" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="ma-f" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="ma-e" fill="#fff">
+      <use xlink:href="#ma-a"/>
+    </mask>
+    <use fill="#000" filter="url(#ma-b)" xlink:href="#ma-a"/>
+    <use fill="url(#ma-c)" xlink:href="#ma-a"/>
+    <rect width="21" height="15" fill="url(#ma-d)" mask="url(#ma-e)"/>
+    <path stroke="#0A6135" d="M10.5,4.57446629 L9.8293616,6.57694543 L7.7176521,6.59596037 L9.41488428,7.85257547 L8.78041443,9.86680649 L10.5,8.64095819 L12.2195856,9.86680649 L11.5851157,7.85257547 L13.2823479,6.59596037 L11.1706384,6.57694543 L10.5,4.57446629 Z" mask="url(#ma-e)"/>
+    <g fill="#000" mask="url(#ma-e)">
+      <use filter="url(#ma-f)" xlink:href="#ma-g"/>
+    </g>
+  </g>
+</svg>

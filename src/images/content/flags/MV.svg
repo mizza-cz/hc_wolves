@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="mv-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="mv-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="mv-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="mv-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F32249"/>
+      <stop offset="100%" stop-color="#D01739"/>
+    </linearGradient>
+    <linearGradient id="mv-f" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#15A04F"/>
+      <stop offset="100%" stop-color="#0F7E3D"/>
+    </linearGradient>
+    <linearGradient id="mv-i" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="mv-h" d="M11.5,4 C11.7577329,4 12.0089592,4.02785784 12.2508322,4.08072667 C10.6769936,4.42437411 9.5,5.82473626 9.5,7.5 C9.5,9.17526374 10.6769936,10.5756259 12.2491678,10.9192733 C12.0089592,10.9721422 11.7577329,11 11.5,11 C9.56700338,11 8,9.43299662 8,7.5 C8,5.56700338 9.56700338,4 11.5,4 Z"/>
+    <filter id="mv-g" width="111.8%" height="114.3%" x="-5.9%" y="-3.6%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="mv-k" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="mv-j" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="mv-e" fill="#fff">
+      <use xlink:href="#mv-a"/>
+    </mask>
+    <use fill="#000" filter="url(#mv-b)" xlink:href="#mv-a"/>
+    <use fill="url(#mv-c)" xlink:href="#mv-a"/>
+    <rect width="21" height="15" fill="url(#mv-d)" mask="url(#mv-e)"/>
+    <rect width="15" height="9" x="3" y="3" fill="url(#mv-f)" mask="url(#mv-e)" rx=".5"/>
+    <g mask="url(#mv-e)">
+      <use fill="#000" filter="url(#mv-g)" xlink:href="#mv-h"/>
+      <use fill="url(#mv-i)" xlink:href="#mv-h"/>
+    </g>
+    <g fill="#000" mask="url(#mv-e)">
+      <use filter="url(#mv-j)" xlink:href="#mv-k"/>
+    </g>
+  </g>
+</svg>

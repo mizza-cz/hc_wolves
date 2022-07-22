@@ -1,0 +1,18 @@
+.content {
+  &::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+

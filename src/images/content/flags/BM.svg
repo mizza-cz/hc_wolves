@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="17" viewBox="0 0 23 17">
+  <defs>
+    <linearGradient id="bm-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <rect id="bm-a" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="bm-b" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="bm-g" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#DC1F37"/>
+      <stop offset="100%" stop-color="#CF142C"/>
+    </linearGradient>
+    <rect id="bm-f" width="21" height="15" x="0" y="0"/>
+    <filter id="bm-e" width="116.7%" height="123.3%" x="-8.3%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"/>
+    </filter>
+    <linearGradient id="bm-h" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#042C90"/>
+      <stop offset="100%" stop-color="#00247E"/>
+    </linearGradient>
+    <linearGradient id="bm-k" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="bm-i" d="M0,2.5 L0,0 L2,0 L4,0 L4,2.5 C4,4 2,5 2,5 C2,5 0,4 0,2.5 Z"/>
+    <filter id="bm-j" width="112.5%" height="120%" x="-6.2%" y="-5%" filterUnits="objectBoundingBox">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <linearGradient id="bm-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E20B0C"/>
+      <stop offset="100%" stop-color="#D40001"/>
+    </linearGradient>
+    <linearGradient id="bm-n" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#DB1E36"/>
+      <stop offset="100%" stop-color="#D51931"/>
+    </linearGradient>
+    <linearGradient id="bm-q" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="bm-p" d="M0,2.5 L0,4.5 L3.5,4.5 L3.5,7.00461102 C3.5,7.2782068 3.71403503,7.5 4.00468445,7.5 L4.99531555,7.5 C5.27404508,7.5 5.5,7.2842474 5.5,7.00461102 L5.5,4.5 L9.00952148,4.5 C9.28040529,4.5 9.5,4.28596497 9.5,3.99531555 L9.5,3.00468445 C9.5,2.72595492 9.28494263,2.5 9.00952148,2.5 L5.5,2.5 L5.5,0 L3.5,0 L3.5,2.5 L0,2.5 Z"/>
+    <filter id="bm-o" width="117.5%" height="122.1%" x="-7.9%" y="-10%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <rect id="bm-s" width="21" height="15" x="0" y="0" rx="1.5"/>
+    <filter id="bm-r" width="102.4%" height="103.3%" x="-1.2%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="bm-d" fill="#fff">
+      <use xlink:href="#bm-a"/>
+    </mask>
+    <use fill="#000" filter="url(#bm-b)" xlink:href="#bm-a"/>
+    <use fill="url(#bm-c)" xlink:href="#bm-a"/>
+    <g mask="url(#bm-d)">
+      <use fill="#000" filter="url(#bm-e)" xlink:href="#bm-f"/>
+      <use fill="url(#bm-g)" xlink:href="#bm-f"/>
+    </g>
+    <rect width="9" height="7" fill="url(#bm-h)" mask="url(#bm-d)"/>
+    <g mask="url(#bm-d)">
+      <g transform="translate(13 5)">
+        <mask id="bm-l" fill="#fff">
+          <use xlink:href="#bm-i"/>
+        </mask>
+        <use fill="#000" filter="url(#bm-j)" xlink:href="#bm-i"/>
+        <use fill="url(#bm-k)" xlink:href="#bm-i"/>
+        <circle cx="2" cy="3" r="1" fill="#65B5D2" mask="url(#bm-l)"/>
+        <path fill="url(#bm-m)" d="M1,2 C1.27614237,2 1.5,2.22385763 1.5,2.5 C1.5,2.77614237 1.27614237,3 1,3 C0.723857625,3 0.5,2.77614237 0.5,2.5 C0.5,2.22385763 0.723857625,2 1,2 Z M3,2 C3.27614237,2 3.5,2.22385763 3.5,2.5 C3.5,2.77614237 3.27614237,3 3,3 C2.72385763,3 2.5,2.77614237 2.5,2.5 C2.5,2.22385763 2.72385763,2 3,2 Z M2,1 C2.27614237,1 2.5,1.22385763 2.5,1.5 C2.5,1.77614237 2.27614237,2 2,2 C1.72385763,2 1.5,1.77614237 1.5,1.5 C1.5,1.22385763 1.72385763,1 2,1 Z" mask="url(#bm-l)"/>
+        <rect width="4" height="1" y="4" fill="#2F8F22" mask="url(#bm-l)"/>
+      </g>
+    </g>
+    <path fill="url(#bm-n)" stroke="#FFF" stroke-width=".5" d="M0.580116263,-0.25 L-0.675814352,-0.25 L3.25,3.11498373 L3.25,3.87134553 L-0.25,6.37134553 L-0.25,7.45106191 L4.07169906,4.75 L4.92942021,4.75 L11.367513,8.70002745 L5.75,3.88501627 L5.75,3.11498373 L11.6883505,-1.97503094 L4.92830094,2.25 L4.08011626,2.25 L0.580116263,-0.25 Z" mask="url(#bm-d)"/>
+    <g mask="url(#bm-d)">
+      <use fill="#000" filter="url(#bm-o)" xlink:href="#bm-p"/>
+      <use fill="url(#bm-q)" xlink:href="#bm-p"/>
+    </g>
+    <polygon fill="url(#bm-n)" points="0 3 4 3 4 2.5 4 0 5 0 5 2.5 5 3 9 3 9 4 5 4 5 4.5 5 7 4 7 4 4.5 4 4 0 4" mask="url(#bm-d)"/>
+    <g fill="#000" mask="url(#bm-d)">
+      <use filter="url(#bm-r)" xlink:href="#bm-s"/>
+    </g>
+  </g>
+</svg>
