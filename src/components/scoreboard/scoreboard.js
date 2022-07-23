@@ -2,9 +2,9 @@ $(".scoreboard-slider").slick({
   slidesToShow: 8,
   slidesToScroll: 1,
   prevArrow:
-    '<button class="scoarboard__btn scoarboard__btnprev"><img src="/images/ico/arrow-left-square.svg" alt="" ></button> ',
+    '<button class="scoarboard__btn scoarboard__btnprev"><img src="./images/ico/arrow-left-square.svg" alt="" ></button> ',
   nextArrow:
-    ' <button class="scoarboard__btn  scoarboard__btnnext"><img  src="/images/ico/arrow-right-square.svg" alt = "" ></button>',
+    ' <button class="scoarboard__btn  scoarboard__btnnext"><img  src="./images/ico/arrow-right-square.svg" alt = "" ></button>',
   responsive: [
     {
       breakpoint: 1800,
