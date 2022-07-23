@@ -1,0 +1,64 @@
+.scoreboard {
+  scroll-snap-type: x mandatory;
+}
+
+.scoreboard-slider {
+  @include media-breakpoint-up(lg) {
+    overflow: hidden;
+    padding: 0 72px;
+  }
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+}
+
+.scoreboard-item {
+  height: 72px;
+  scroll-snap-align: start;
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-border) !important;
+  }
+}
+
+.scoreboard .btn-link {
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+.scoarboard__btn {
+  border: none;
+  width: 72px;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  img {
+    width: 16px;
+    height: 16px;
+  }
+  @media (max-width: 991px) {
+    display: none !important;
+  }
+}
+.scoarboard__btnprev {
+  left: 0;
+}
+.scoarboard__btnnext {
+  right: 0;
+}
+.slick-list {
+  scroll-snap-type: x mandatory !important;
+}
+.slick-track {
+  scroll-snap-type: x mandatory !important;
+  scroll-behavior: smooth !important;
+  overflow-x: auto !important;
+  width: max-content !important;
+}

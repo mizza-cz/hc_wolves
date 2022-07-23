@@ -6,3 +6,16 @@
     position: static;
   }
 }
+.menu-item.is-active .submenu {
+  display: block;
+}
+@include media-breakpoint-down(md) {
+  .submenu-link,
+  .submenu-item {
+    color: var(--color-primary) !important;
+    background-color: var(--color-light);
+  }
+  .submenu-item + .submenu-item {
+    border-top: 1px solid rgba(#333, 0.4);
+  }
+}

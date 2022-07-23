@@ -1,0 +1,198 @@
+body,
+input,
+select,
+textarea {
+  font-family: "Helvetica", "Arial", "Verdana", sans-serif;
+  font-weight: 400;
+}
+strong,
+.strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.fonts-stage-2 strong,
+.fonts-stage-2 .strong {
+  font-weight: 700;
+}
+em,
+i,
+.italic {
+  font-style: italic;
+}
+small,
+.small {
+  font-size: 12px;
+}
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: var(--color-red);
+  text-decoration: underline;
+}
+@media (prefers-reduced-motion: reduce) {
+  a {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+@media (min-width: 992px) {
+  a:hover,
+  a:focus {
+    color: var(--color-red) !important;
+    text-decoration: none;
+  }
+}
+h1,
+.alfa,
+h2,
+.beta,
+h3,
+.gamma,
+h4,
+.delta,
+h5,
+.epsilon,
+h6,
+.zeta {
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  color: var(--color-red);
+}
+h1,
+.alfa {
+  font-size: 32px;
+}
+@media (min-width: 768px) {
+  h1,
+  .alfa {
+    font-size: 36px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+h2,
+.beta {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  h2,
+  .beta {
+    font-size: 32px;
+  }
+}
+h3,
+.gamma {
+  font-size: 21px;
+}
+@media (min-width: 768px) {
+  h3,
+  .gamma {
+    font-size: 28px;
+  }
+}
+h4,
+.delta {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  h4,
+  .delta {
+    font-size: 21px;
+  }
+}
+h5,
+.epsilon {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  h5,
+  .epsilon {
+    font-size: 18px;
+  }
+}
+h6,
+.zeta {
+  font-size: 16px;
+}
+.typography p,
+.typography li,
+.typography td,
+.typography th {
+  line-height: 1.75;
+}
+.typography p,
+.typography ul,
+.typography ol,
+.typography table,
+.typography fieldset,
+.typography blockquote,
+.typography .embed-responsive {
+  margin-bottom: 22.5px;
+}
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.typography ul,
+.typography ol {
+  margin-left: 0;
+}
+.typography ul > li,
+.typography ol > li {
+  position: relative;
+  padding-left: 30px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.typography ul > li::after,
+.typography ol > li::after {
+  position: absolute;
+}
+.typography ul > li::after {
+  content: "";
+  width: 12px;
+  height: 16px;
+  background: url("../images/angle-right.svg") center no-repeat;
+  left: 0;
+  top: 7px;
+}
+.typography ul > li:before {
+  content: "\200B";
+}
+.typography ol {
+  counter-reset: orderedList;
+}
+.typography ol > li {
+  counter-increment: orderedList;
+}
+.typography ol > li::before {
+  content: counter(orderedList);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #1b1b1b;
+  font-weight: 700;
+}
+.typography .lead {
+  font-size: 24px;
+  line-height: 1.33em;
+}
+.typography-ext p,
+.typography-ext ul,
+.typography-ext ol {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}

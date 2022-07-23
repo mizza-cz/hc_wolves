@@ -1,0 +1,15 @@
+body {
+  font-size: 16px;
+  background: #edf0f4;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  height: auto;
+
+  &.overflow {
+    overflow: hidden;
+    height: 100%;
+  }
+}

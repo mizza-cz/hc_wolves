@@ -1,0 +1,126 @@
+/* [] MENU */
+.menu-logo {
+  @include media-breakpoint-up(md) {
+    height: 80px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 100px;
+  }
+  height: 50px;
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+.menu-item-group {
+  @include media-breakpoint-down(sm) {
+    padding: 50px 0;
+  }
+}
+.menu-item {
+  svg {
+    display: block;
+    color: var(--color-primary) !important;
+    fill: var(--color-primary) !important;
+    width: 23px;
+    height: 20px;
+  }
+  @include media-breakpoint-down(md) {
+    transition: opacity 0.35s ease-out, transform 0.35s ease-out,
+      -webkit-transform 0.35s ease-out;
+    transform: scale(1.1) translateY(-24px);
+    opacity: 0;
+    margin: 0 30px;
+    will-change: auto;
+  }
+}
+
+.menu-link {
+  &:hover,
+  &:focus {
+    @include media-breakpoint-up(md) {
+      color: var(--color-red);
+    }
+    @include media-breakpoint-up(lg) {
+      color: var(--color-red);
+    }
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  color: var(--color-primary);
+}
+
+.menu-collapse {
+  @include media-breakpoint-down(md) {
+    will-change: auto;
+    position: absolute;
+    height: 100%;
+    background: #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: scroll;
+    display: block;
+    height: 0;
+  }
+  &.is-active {
+    animation: collapse 230ms ease-out forwards;
+    .menu-item {
+      transform: scale(1) translateY(0);
+      opacity: 1;
+    }
+  }
+}
+.menu-toggle {
+  transition: 0.4s cubic-bezier(0.3, 0.01, 0.165, 0.99);
+  transform: rotate(0);
+  top: 23px;
+  right: 15px;
+  background: none;
+  border: 0;
+  width: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.is-active {
+    .menu-toggle-open {
+      opacity: 0;
+      --translateXOpen: 100%;
+    }
+    .menu-toggle-close {
+      --translateXClose: 0;
+      opacity: 1;
+    }
+  }
+}
+
+.menu-toggle-open {
+  --translateXOpen: 0;
+  opacity: 1;
+  transform: translateX(var(--translateXOpen));
+}
+
+.menu-toggle-close {
+  --translateXClose: -100%;
+  opacity: 0;
+  transform: translateX(var(--translateXClose));
+}
+
+@keyframes collapse {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}

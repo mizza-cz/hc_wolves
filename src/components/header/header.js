@@ -1,5 +1,3 @@
-
-
 headerNavOpenerClick();
 function headerNavOpenerClick() {
   const bodyEl = document.querySelector("body");
@@ -27,3 +25,8 @@ function headerNavOpenerClick() {
   });
 }
 
+$(function () {
+  $(".menu-link").on("click", function () {
+    $(this).closest(".menu-item").toggleClass("is-active");
+  });
+});
