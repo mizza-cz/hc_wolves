@@ -1,0 +1,529 @@
+<section class="c-table-section">
+  <article class="bg-page overflow-hidden">
+    <div class="container-fluid mb-4 mt-21">
+      <h1 class="text-white ml-md-6 ml-xl-23 mb-0">Soupiska A tým</h1>
+    </div>
+    <div class="container-fluid">
+      <div class="d-flex ml-md-6 ml-xl-23 overflow-auto">
+        <a
+          href="soupiska.html"
+          class="text-white text-decoration-none font-secondary font-weight-bold mr-4 pb-4"
+          >Soupiska</a
+        >
+        <a
+          href="tabulky.html"
+          class="text-secondary text-decoration-none font-secondary font-weight-bold mr-4 pb-4 text-nowrap border-bottom border-md border-secondary"
+          >Tabulky</a
+        >
+        <a
+          href="zapasy.html"
+          class="text-white text-decoration-none font-secondary font-weight-bold mr-4 pb-4 text-nowrap"
+          >Zápasy</a
+        >
+        <a
+          href=""
+          class="text-white text-decoration-none font-secondary font-weight-bold mr-4 pb-4 text-nowrap"
+          >Tréningy</a
+        >
+        <a
+          href="novinky.html"
+          class="text-white text-decoration-none font-secondary font-weight-bold mr-4 pb-4 text-nowrap"
+          >Novinky</a
+        >
+      </div>
+    </div>
+    <div class="wrapper container-fluid mb-20">
+      <div class="bg-white box-shadow p-6 pl-xl-23 pr-xl-23 pb-lg-8 pt-lg-8">
+        <div class="row align-items-center mb-3">
+          <div class="col-12 col-lg-7">
+            <h2 class="text-primary mb-3 mb-xl-0">
+              Sezóna
+              <span id="title-season-year">2020/2021</span>
+              -
+              <span id="title-season-part">základná časť</span>
+            </h2>
+          </div>
+          <div class="col-12 col-lg-5">
+            <form action="tabulky-ajax.json" method="get">
+              <div class="row">
+                <div class="col-12 col-md-5">
+                  <label
+                    for="season-year"
+                    class="d-block font-weight-bold mb-1 font-size-smaller"
+                    >Sezóna:</label
+                  >
+                  <select
+                    name="season-year"
+                    id="season-year"
+                    data-autosubmit
+                    data-replace="#season-part"
+                    data-target="#ajax-pane"
+                    class="select-css"
+                  >
+                    <option value="2020-2021">2020/2021</option>
+                    <option value="2020-2021">2019/2020</option>
+                  </select>
+                </div>
+                <div class="col-12 col-md-7">
+                  <label
+                    for="season-part"
+                    class="d-block font-weight-bold mb-1 font-size-smaller"
+                    >Časť:</label
+                  >
+                  <select
+                    name="season-part"
+                    id="season-part"
+                    data-autosubmit
+                    data-target="#ajax-pane"
+                    class="select-css"
+                  >
+                    <option value="1">
+                      Soutěž 5. tříd Středočeského kraje
+                    </option>
+                    <option value="2">Playoff</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+            <script src="js/autosubmit-select.js" async></script>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-bordered" id="table-one">
+            <thead>
+              <tr>
+                <th class="text-center">#</th>
+                <th data-sort-method="none">Tím</th>
+                <th>
+                  <div class="d-md-none">Z</div>
+                  <div class="d-none d-md-block">Zápasy</div>
+                </th>
+                <th>
+                  <div class="d-md-none">V</div>
+                  <div class="d-none d-md-block">Výhry</div>
+                </th>
+                <th>
+                  <div class="d-md-none">R</div>
+                  <div class="d-none d-md-block">Remízy</div>
+                </th>
+                <th>
+                  <div class="d-md-none">P</div>
+                  <div class="d-none d-md-block">Prehry</div>
+                </th>
+                <th>
+                  <div class="d-md-none">S</div>
+                  <div class="d-none d-md-block">Skóre</div>
+                </th>
+                <th>+/-</th>
+                <th>
+                  <div class="d-md-none">B</div>
+                  <div class="d-none d-md-block">Body</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="ajax-pane" aria-live="polite">
+              <tr>
+                <td class="bg-secondary text-center text-white">1.</td>
+                <td>
+                  <a
+                    href=""
+                    class="text-primary d-flex align-items-center text-nowrap font-weight-bold"
+                  >
+                    <img
+                      data-src="/images/content/ner1.png
+                 "
+                      alt=""
+                      class="d-block mr-2 lazy js-lazy loaded"
+                      width="30"
+                      height="30"
+                      src="/images/content/ner1.png
+                 "
+                    />
+                    AS Trenčín
+                  </a>
+                </td>
+                <td>25</td>
+                <td>15</td>
+                <td>10</td>
+                <td>0</td>
+                <td>35:23</td>
+                <td>+12</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <td class="bg-gray-light text-center">1.</td>
+                <td>
+                  <a
+                    href=""
+                    class="text-primary d-flex align-items-center text-nowrap font-weight-bold"
+                  >
+                    <img
+                      data-src="/images/content/ner1.png
+                 "
+                      alt=""
+                      class="d-block mr-2 lazy js-lazy loaded"
+                      width="30"
+                      height="30"
+                      src="/images/content/ner1.png
+                 "
+                    />
+                    AS Trenčín
+                  </a>
+                </td>
+                <td>25</td>
+                <td>15</td>
+                <td>10</td>
+                <td>0</td>
+                <td>35:23</td>
+                <td>+12</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <td class="bg-gray-light text-center">1.</td>
+                <td>
+                  <a
+                    href=""
+                    class="text-primary d-flex align-items-center text-nowrap font-weight-bold"
+                  >
+                    <img
+                      data-src="/images/content/ner1.png
+                 "
+                      alt=""
+                      class="d-block mr-2 lazy js-lazy loaded"
+                      width="30"
+                      height="30"
+                      src="/images/content/ner1.png
+                 "
+                    />
+                    AS Trenčín
+                  </a>
+                </td>
+                <td>25</td>
+                <td>15</td>
+                <td>10</td>
+                <td>0</td>
+                <td>35:23</td>
+                <td>+12</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <td class="bg-gray-light text-center">1.</td>
+                <td>
+                  <a
+                    href=""
+                    class="text-primary d-flex align-items-center text-nowrap font-weight-bold"
+                  >
+                    <img
+                      data-src="/images/content/ner1.png
+                 "
+                      alt=""
+                      class="d-block mr-2 lazy js-lazy loaded"
+                      width="30"
+                      height="30"
+                      src="/images/content/ner1.png
+                 "
+                    />
+                    AS Trenčín
+                  </a>
+                </td>
+                <td>15</td>
+                <td>15</td>
+                <td>10</td>
+                <td>0</td>
+                <td>35:23</td>
+                <td>+12</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <td class="bg-primary text-white text-center">1.</td>
+                <td>
+                  <a
+                    href=""
+                    class="text-primary d-flex align-items-center text-nowrap font-weight-bold"
+                  >
+                    <img
+                      data-src="/images/content/ner1.png
+                 "
+                      alt=""
+                      class="d-block mr-2 lazy js-lazy loaded"
+                      width="30"
+                      height="30"
+                      src="/images/content/ner1.png
+                 "
+                    />
+                    AS Trenčín
+                  </a>
+                </td>
+                <td>25</td>
+                <td>15</td>
+                <td>10</td>
+                <td>0</td>
+                <td>35:23</td>
+                <td>+12</td>
+                <td>35</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="d-flex align-items-center mt-4 font-size-smaller">
+            <svg class="text-secondary icon mr-1" width="20" height="20">
+              <use xlink:href="#square-full"></use>
+            </svg>
+            Postup
+          </div>
+          <div class="d-flex align-items-center mt-1 font-size-smaller">
+            <svg class="text-primary icon mr-1" width="20" height="20">
+              <use xlink:href="#square-full"></use>
+            </svg>
+            Zostup
+          </div>
+          <script async src="js/table-sort.js"></script>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-bordered table-league-big">
+            <tbody>
+              <tr>
+                <th title="Pozice">#</th>
+                <th title="Název týmu">Tým</th>
+                <th title="Zápasy">Z</th>
+                <th title="Výhry">V</th>
+                <th title="Výhry v prodloužení">Vp</th>
+
+                <th title="Prohry">P</th>
+                <th title="Prohry v prodloužení">Pp</th>
+                <th title="Vstřelené branky">VB</th>
+                <th title="Inkasované branky">IB</th>
+                <th title="Skóre">+/-</th>
+                <th title="Body">B</th>
+              </tr>
+
+              <tr class="NYM">
+                <td>1.</td>
+                <td>HC Nymburský Lev, z.s.</td>
+                <td>5</td>
+                <td>4</td>
+                <td>0</td>
+
+                <td>1</td>
+                <td>0</td>
+                <td>39</td>
+                <td>24</td>
+                <td>+15</td>
+                <td>12</td>
+              </tr>
+
+              <tr class="BNJ">
+                <td>2.</td>
+                <td>HC Benátky n.J.</td>
+                <td>6</td>
+                <td>4</td>
+                <td>0</td>
+
+                <td>2</td>
+                <td>0</td>
+                <td>31</td>
+                <td>21</td>
+                <td>+10</td>
+                <td>12</td>
+              </tr>
+
+              <tr class="PŘI">
+                <td>3.</td>
+                <td>HC Příbram</td>
+                <td>4</td>
+                <td>3</td>
+                <td>0</td>
+
+                <td>1</td>
+                <td>0</td>
+                <td>26</td>
+                <td>8</td>
+                <td>+18</td>
+                <td>9</td>
+              </tr>
+
+              <tr class="HVĚ">
+                <td>4.</td>
+                <td>HC Hvězda Kladno</td>
+                <td>4</td>
+                <td>3</td>
+                <td>0</td>
+
+                <td>1</td>
+                <td>0</td>
+                <td>26</td>
+                <td>21</td>
+                <td>+5</td>
+                <td>9</td>
+              </tr>
+
+              <tr class="SOL">
+                <td>5.</td>
+                <td>TJ Sokol Solopisky z.s.</td>
+                <td>4</td>
+                <td>2</td>
+                <td>0</td>
+
+                <td>1</td>
+                <td>1</td>
+                <td>21</td>
+                <td>24</td>
+                <td>-3</td>
+                <td>7</td>
+              </tr>
+
+              <tr class="NER">
+                <td>6.</td>
+                <td>HC Buldoci Neratovice</td>
+                <td>3</td>
+                <td>2</td>
+                <td>0</td>
+
+                <td>1</td>
+                <td>0</td>
+                <td>30</td>
+                <td>13</td>
+                <td>+17</td>
+                <td>6</td>
+              </tr>
+
+              <tr class="SED">
+                <td>7.</td>
+                <td>Tatran Sedlčany</td>
+                <td>4</td>
+                <td>2</td>
+                <td>0</td>
+
+                <td>2</td>
+                <td>0</td>
+                <td>22</td>
+                <td>11</td>
+                <td>+11</td>
+                <td>6</td>
+              </tr>
+
+              <tr class="HOŘ">
+                <td>8.</td>
+                <td>HC Cvočkaři Hořovice</td>
+                <td>3</td>
+                <td>2</td>
+                <td>0</td>
+
+                <td>1</td>
+                <td>0</td>
+                <td>10</td>
+                <td>9</td>
+                <td>+1</td>
+                <td>6</td>
+              </tr>
+
+              <tr class="ČER">
+                <td>9.</td>
+                <td>SK Černošice</td>
+                <td>4</td>
+                <td>2</td>
+                <td>0</td>
+
+                <td>2</td>
+                <td>0</td>
+                <td>11</td>
+                <td>26</td>
+                <td>-15</td>
+                <td>6</td>
+              </tr>
+
+              <tr class="ŽIL">
+                <td>10.</td>
+                <td>SK VELC Žilina</td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+
+                <td>3</td>
+                <td>0</td>
+                <td>24</td>
+                <td>22</td>
+                <td>+2</td>
+                <td>3</td>
+              </tr>
+
+              <tr class="LET">
+                <td>11.</td>
+                <td>HC Letci Letňany</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+
+                <td>2</td>
+                <td>0</td>
+                <td>11</td>
+                <td>14</td>
+                <td>-3</td>
+                <td>3</td>
+              </tr>
+
+              <tr class="RAK">
+                <td>12.</td>
+                <td>HC Rakovník</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+
+                <td>2</td>
+                <td>0</td>
+                <td>10</td>
+                <td>19</td>
+                <td>-9</td>
+                <td>3</td>
+              </tr>
+
+              <tr class="ZIZ">
+                <td>13.</td>
+                <td>SK Žižkov Praha</td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+
+                <td>3</td>
+                <td>0</td>
+                <td>14</td>
+                <td>38</td>
+                <td>-24</td>
+                <td>3</td>
+              </tr>
+
+              <tr class="HKP">
+                <td>14.</td>
+                <td>HK Příbram 99</td>
+                <td>4</td>
+                <td>0</td>
+                <td>1</td>
+
+                <td>3</td>
+                <td>0</td>
+                <td>15</td>
+                <td>20</td>
+                <td>-5</td>
+                <td>2</td>
+              </tr>
+
+              <tr class="ZLO">
+                <td>15.</td>
+                <td>HC Zlonice</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+
+                <td>3</td>
+                <td>0</td>
+                <td>7</td>
+                <td>27</td>
+                <td>-20</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
