@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+  .c-article-section {
+    .col-12 {
+      flex: 0 0 auto !important;
+    }
+    header h1 {
+      font-size: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}
+.article-thumb {
+  min-height: 30rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
