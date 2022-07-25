@@ -1,12 +1,12 @@
 /* [] MENU */
 .menu-logo {
   @include media-breakpoint-up(md) {
-    height: 90px;
+    height: 100px;
   }
   @include media-breakpoint-up(lg) {
-    height: 110px;
+    height: 130px;
   }
-  height: 60px;
+  height: 80px;
   img {
     height: 100%;
     width: auto;
@@ -75,7 +75,7 @@
 .menu-toggle {
   transition: 0.4s cubic-bezier(0.3, 0.01, 0.165, 0.99);
   transform: rotate(0);
-  top: 23px;
+  top: 32px;
   right: 15px;
   background: none;
   border: 0;

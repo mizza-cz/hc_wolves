@@ -5,9 +5,18 @@
 a.text-white:hover {
   color: var(--color-red) !important;
 }
+.text-primary a {
+  color: inherit;
+}
+.text-red {
+  color: var(--color-red);
+}
+.color-text {
+  color: var(--color-text);
+}
 .text-secondary {
-  color: var(--color-red) !important;
-  fill: var(--color-red) !important;
+  color: var(--color-gray) !important;
+  fill: var(--color-gray) !important;
 }
 .text-primary {
   color: var(--color-primary) !important;
